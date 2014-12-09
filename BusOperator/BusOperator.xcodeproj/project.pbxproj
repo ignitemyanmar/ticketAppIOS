@@ -1,0 +1,1933 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52077FDB19F0FC0100A8B86A /* InputCommissionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52077FDA19F0FC0100A8B86A /* InputCommissionVC.m */; };
+		5208639C19F60DF1000D4C4A /* PaymentListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208639B19F60DF1000D4C4A /* PaymentListVC.m */; };
+		5208639F19F65B1D000D4C4A /* CreditListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5208639E19F65B1D000D4C4A /* CreditListVC.m */; };
+		520C1391193C40A50009BB7A /* add_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 520C1390193C40A50009BB7A /* add_icon.png */; };
+		521247DE193C6915000336FF /* DataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247DD193C6915000336FF /* DataFetcher.m */; };
+		521247F9193C6BF8000336FF /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247E2193C6BF8000336FF /* JSONModel.m */; };
+		521247FA193C6BF8000336FF /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247E4193C6BF8000336FF /* JSONModelArray.m */; };
+		521247FB193C6BF8000336FF /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247E6193C6BF8000336FF /* JSONModelClassProperty.m */; };
+		521247FC193C6BF8000336FF /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247E8193C6BF8000336FF /* JSONModelError.m */; };
+		521247FD193C6BF8000336FF /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247EB193C6BF8000336FF /* NSArray+JSONModel.m */; };
+		521247FE193C6BF8000336FF /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247EF193C6BF8000336FF /* JSONAPI.m */; };
+		521247FF193C6BF8000336FF /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247F1193C6BF8000336FF /* JSONHTTPClient.m */; };
+		52124800193C6BF8000336FF /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247F3193C6BF8000336FF /* JSONModel+networking.m */; };
+		52124801193C6BF8000336FF /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247F6193C6BF8000336FF /* JSONKeyMapper.m */; };
+		52124802193C6BF8000336FF /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 521247F8193C6BF8000336FF /* JSONValueTransformer.m */; };
+		52124806193C6C57000336FF /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124805193C6C57000336FF /* City.m */; };
+		5212481B193C6F7A000336FF /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124809193C6F7A000336FF /* AFHTTPClient.m */; };
+		5212481C193C6F7A000336FF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212480B193C6F7A000336FF /* AFHTTPRequestOperation.m */; };
+		5212481D193C6F7A000336FF /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212480D193C6F7A000336FF /* AFImageRequestOperation.m */; };
+		5212481E193C6F7A000336FF /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212480F193C6F7A000336FF /* AFJSONRequestOperation.m */; };
+		5212481F193C6F7A000336FF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124811193C6F7A000336FF /* AFNetworkActivityIndicatorManager.m */; };
+		52124820193C6F7A000336FF /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124814193C6F7A000336FF /* AFPropertyListRequestOperation.m */; };
+		52124821193C6F7A000336FF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124816193C6F7A000336FF /* AFURLConnectionOperation.m */; };
+		52124822193C6F7A000336FF /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124818193C6F7A000336FF /* AFXMLRequestOperation.m */; };
+		52124823193C6F7A000336FF /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212481A193C6F7A000336FF /* UIImageView+AFNetworking.m */; };
+		52124826193C6FBF000336FF /* TicketingAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124825193C6FBF000336FF /* TicketingAPIClient.m */; };
+		52124829193C7CC7000336FF /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 52124828193C7CC7000336FF /* Trip.m */; };
+		5212A55619FE377300E48C08 /* AgentListPopOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5212A55519FE377300E48C08 /* AgentListPopOver.m */; };
+		52150C4419232205002D65BE /* BusSchedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52150C4319232205002D65BE /* BusSchedule.storyboard */; };
+		52150C47192322BA002D65BE /* AddBusScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52150C46192322BA002D65BE /* AddBusScheduleVC.m */; };
+		52150C4A1923258D002D65BE /* BusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52150C491923258D002D65BE /* BusCell.m */; };
+		52150C4E19232D14002D65BE /* SelectBusTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52150C4D19232D14002D65BE /* SelectBusTypeVC.m */; };
+		52150C51192355B9002D65BE /* SeatReservationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52150C50192355B9002D65BE /* SeatReservationVC.m */; };
+		52164E9619207479002821EA /* TripReportByAllTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164E9519207479002821EA /* TripReportByAllTimeVC.m */; };
+		52164E9819208450002821EA /* SeatOccupacy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52164E9719208450002821EA /* SeatOccupacy.storyboard */; };
+		52164E9B1920848A002821EA /* SeatOccupacyReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164E9A1920848A002821EA /* SeatOccupacyReportVC.m */; };
+		52164EA31920A8A5002821EA /* MultiLineSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164EA21920A8A5002821EA /* MultiLineSegmentedControl.m */; };
+		52164EA61920A8C4002821EA /* UIView+LayerShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164EA51920A8C4002821EA /* UIView+LayerShot.m */; };
+		52164EA91920B10F002821EA /* DetailSeatOccupacyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164EA81920B10F002821EA /* DetailSeatOccupacyVC.m */; };
+		52164EAC1920B3D8002821EA /* SeatOccupacyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 52164EAB1920B3D8002821EA /* SeatOccupacyCell.m */; };
+		52189CD01924698900671171 /* Zawgyi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52189CCF1924698900671171 /* Zawgyi.ttf */; };
+		521AE77B195BDEBD000A470B /* ShowHolidayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521AE77A195BDEBD000A470B /* ShowHolidayVC.m */; };
+		521AE77E195BE79A000A470B /* HolidayDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521AE77D195BE79A000A470B /* HolidayDateVC.m */; };
+		521BC10C193D943300F9A122 /* TripDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BC10B193D943300F9A122 /* TripDetail.m */; };
+		521BC10F193D9D6D00F9A122 /* BusClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 521BC10E193D9D6D00F9A122 /* BusClass.m */; };
+		521CA86519FF47DC00C63477 /* MakePaymentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CA86419FF47DC00C63477 /* MakePaymentVC.m */; };
+		521CCEEE19EE4A2E00E16213 /* HotSaleAgent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521CCEED19EE4A2E00E16213 /* HotSaleAgent.storyboard */; };
+		521CCEF119EE4C7F00E16213 /* HotSaleAgentReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CCEF019EE4C7F00E16213 /* HotSaleAgentReportVC.m */; };
+		521CCEF419EE654300E16213 /* HotSaleAgentTripReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CCEF319EE654300E16213 /* HotSaleAgentTripReportVC.m */; };
+		521CCEF719EE775900E16213 /* HotSaleType.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521CCEF619EE775900E16213 /* HotSaleType.storyboard */; };
+		521CCEFB19EE781900E16213 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CCEFA19EE781900E16213 /* XYPieChart.m */; };
+		521CCEFD19EE783500E16213 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521CCEFC19EE783500E16213 /* QuartzCore.framework */; };
+		521CCF0019EE788900E16213 /* HotSaleTypeReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CCEFF19EE788900E16213 /* HotSaleTypeReportVC.m */; };
+		521FF2D0193F1E2200F22466 /* SelectAgentGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521FF2CF193F1E2200F22466 /* SelectAgentGroupVC.m */; };
+		521FF2D3193F1ECC00F22466 /* AgentGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 521FF2D2193F1ECC00F22466 /* AgentGroup.m */; };
+		521FF2D6193F325C00F22466 /* AddNew.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521FF2D5193F325C00F22466 /* AddNew.storyboard */; };
+		521FF2D9193F328C00F22466 /* AddNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 521FF2D8193F328C00F22466 /* AddNewVC.m */; };
+		52209F2D194020E300EF6F21 /* CreateAgentGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52209F2C194020E300EF6F21 /* CreateAgentGroupVC.m */; };
+		52209F351940250600EF6F21 /* JDStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 52209F301940250600EF6F21 /* JDStatusBarNotification.m */; };
+		52209F361940250600EF6F21 /* JDStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 52209F321940250600EF6F21 /* JDStatusBarStyle.m */; };
+		52209F371940250600EF6F21 /* JDStatusBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52209F341940250600EF6F21 /* JDStatusBarView.m */; };
+		522137A51948081C00946EA8 /* SeatlayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 522137A41948081C00946EA8 /* SeatlayoutCell.m */; };
+		522137A91948423900946EA8 /* AddSeatNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522137A81948423900946EA8 /* AddSeatNameVC.m */; };
+		522437B3191C8ADD0005E426 /* TripReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437B2191C8ADD0005E426 /* TripReportCell.m */; };
+		522437B7191C92170005E426 /* TripListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437B6191C92170005E426 /* TripListVC.m */; };
+		522437BA191C975F0005E426 /* TripTimeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437B9191C975F0005E426 /* TripTimeListVC.m */; };
+		522437BD191C9B7D0005E426 /* FromDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437BC191C9B7D0005E426 /* FromDateVC.m */; };
+		522437C6191C9D8C0005E426 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437C0191C9D8C0005E426 /* CKCalendarView.m */; };
+		522437C7191C9D8C0005E426 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 522437C2191C9D8C0005E426 /* left_arrow.png */; };
+		522437C8191C9D8C0005E426 /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522437C3191C9D8C0005E426 /* left_arrow@2x.png */; };
+		522437C9191C9D8C0005E426 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 522437C4191C9D8C0005E426 /* right_arrow.png */; };
+		522437CA191C9D8C0005E426 /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 522437C5191C9D8C0005E426 /* right_arrow@2x.png */; };
+		522437CD191C9F160005E426 /* ToDateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437CC191C9F160005E426 /* ToDateVC.m */; };
+		522437D0191CBB8B0005E426 /* TripReportByBusNoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437CF191CBB8B0005E426 /* TripReportByBusNoVC.m */; };
+		522437D3191CD4EF0005E426 /* TripReportBySeatNoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522437D2191CD4EF0005E426 /* TripReportBySeatNoVC.m */; };
+		5224EA8419344FD3005AF853 /* ChooseCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224EA8319344FD3005AF853 /* ChooseCityVC.m */; };
+		5224EA8719345841005AF853 /* ChooseBusClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224EA8619345841005AF853 /* ChooseBusClass.m */; };
+		5224EA89193471A4005AF853 /* HomeArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5224EA88193471A4005AF853 /* HomeArrow.png */; };
+		5224EA8C19347550005AF853 /* EditTripListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224EA8B19347550005AF853 /* EditTripListVC.m */; };
+		5224EA8F19349C38005AF853 /* ManageBusTypePrice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5224EA8E19349C38005AF853 /* ManageBusTypePrice.storyboard */; };
+		5224EA9219349C5E005AF853 /* ManageBusTypePriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5224EA9119349C5E005AF853 /* ManageBusTypePriceVC.m */; };
+		522713C119F0C63C00882879 /* CreditAgentDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522713C019F0C63C00882879 /* CreditAgentDetailVC.m */; };
+		522713C419F0D53200882879 /* InputCreditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522713C319F0D53200882879 /* InputCreditVC.m */; };
+		5227860F19613FFB00D28B75 /* OperatorShowEditAllVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227860E19613FFB00D28B75 /* OperatorShowEditAllVC.m */; };
+		522786121961644900D28B75 /* CommissionType.m in Sources */ = {isa = PBXBuildFile; fileRef = 522786111961644900D28B75 /* CommissionType.m */; };
+		5227F530195009890022C16E /* DailyReport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5227F52F195009890022C16E /* DailyReport.storyboard */; };
+		5227F53319500A800022C16E /* DepartureReportWithTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227F53219500A800022C16E /* DepartureReportWithTimeVC.m */; };
+		5227F536195040070022C16E /* DepartureReportWithBusNoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227F535195040070022C16E /* DepartureReportWithBusNoVC.m */; };
+		5227F539195048930022C16E /* DepartureReportWithSeatNoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227F538195048930022C16E /* DepartureReportWithSeatNoVC.m */; };
+		5227F53D195052580022C16E /* AdvancedReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5227F53C195052580022C16E /* AdvancedReportVC.m */; };
+		522DEFB619EFB24C00300EAE /* ReportAgentCredit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522DEFB519EFB24C00300EAE /* ReportAgentCredit.storyboard */; };
+		522DEFB919EFBB8600300EAE /* CreditAgentListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DEFB819EFBB8600300EAE /* CreditAgentListVC.m */; };
+		5233904819358C9D00B00D70 /* ShowBusScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5233904719358C9D00B00D70 /* ShowBusScheduleVC.m */; };
+		5233904E1935CF1E00B00D70 /* AddNewBusScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5233904D1935CF1E00B00D70 /* AddNewBusScheduleVC.m */; };
+		52349AA91958062F00D2D172 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52349AA81958062F00D2D172 /* Customer.m */; };
+		52351184194AA70400B7BA09 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = 52351183194AA70400B7BA09 /* Operator.m */; };
+		52351188194AA88900B7BA09 /* SelectOperatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52351187194AA88900B7BA09 /* SelectOperatorVC.m */; };
+		5235118B194AB4A100B7BA09 /* CreateNewTicketTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5235118A194AB4A100B7BA09 /* CreateNewTicketTypeVC.m */; };
+		523537FC194EA1EC00EF5280 /* ChooseSeatPlanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523537FB194EA1EC00EF5280 /* ChooseSeatPlanVC.m */; };
+		523537FF194F040700EF5280 /* customCollcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 523537FE194F040700EF5280 /* customCollcell.m */; };
+		52359FD31977829A007EAB9B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 52359FD21977829A007EAB9B /* Reachability.m */; };
+		523755AA191B6E7E00228B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755A9191B6E7E00228B29 /* Foundation.framework */; };
+		523755AC191B6E7E00228B29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755AB191B6E7E00228B29 /* CoreGraphics.framework */; };
+		523755AE191B6E7E00228B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755AD191B6E7E00228B29 /* UIKit.framework */; };
+		523755B4191B6E7E00228B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 523755B2191B6E7E00228B29 /* InfoPlist.strings */; };
+		523755B6191B6E7E00228B29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755B5191B6E7E00228B29 /* main.m */; };
+		523755BA191B6E7E00228B29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755B9191B6E7E00228B29 /* AppDelegate.m */; };
+		523755BD191B6E7E00228B29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523755BB191B6E7E00228B29 /* Main.storyboard */; };
+		523755C0191B6E7E00228B29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755BF191B6E7E00228B29 /* ViewController.m */; };
+		523755C2191B6E7E00228B29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523755C1191B6E7E00228B29 /* Images.xcassets */; };
+		523755C9191B6E7E00228B29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755C8191B6E7E00228B29 /* XCTest.framework */; };
+		523755CA191B6E7E00228B29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755A9191B6E7E00228B29 /* Foundation.framework */; };
+		523755CB191B6E7E00228B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523755AD191B6E7E00228B29 /* UIKit.framework */; };
+		523755D3191B6E7E00228B29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 523755D1191B6E7E00228B29 /* InfoPlist.strings */; };
+		523755D5191B6E7E00228B29 /* BusOperatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755D4191B6E7E00228B29 /* BusOperatorTests.m */; };
+		523755E9191B725600228B29 /* HomeSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755E8191B725600228B29 /* HomeSelectVC.m */; };
+		523755EC191B770400228B29 /* BkgColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 523755EB191B770400228B29 /* BkgColor.png */; };
+		523755F0191B786A00228B29 /* UIStoryboard+MultipleStoryboards.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755EF191B786A00228B29 /* UIStoryboard+MultipleStoryboards.m */; };
+		523755F2191B78B400228B29 /* AgentsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523755F1191B78B400228B29 /* AgentsStoryboard.storyboard */; };
+		523755F5191B7AFF00228B29 /* AgentSelectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755F4191B7AFF00228B29 /* AgentSelectVC.m */; };
+		523755F9191B827200228B29 /* AgentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755F8191B827200228B29 /* AgentCell.m */; };
+		523755FB191B887300228B29 /* Trips.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523755FA191B887300228B29 /* Trips.storyboard */; };
+		523755FE191B889A00228B29 /* TripReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523755FD191B889A00228B29 /* TripReportVC.m */; };
+		523BC77E19495CC50089029D /* CreateNewCityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BC77D19495CC50089029D /* CreateNewCityVC.m */; };
+		523BC781194965B40089029D /* CreateNewBusTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BC780194965B40089029D /* CreateNewBusTypeVC.m */; };
+		523BC78419496C5A0089029D /* CreateNewOperatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BC78319496C5A0089029D /* CreateNewOperatorVC.m */; };
+		523BC7881949827D0089029D /* SelectTicketTypeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BC7871949827D0089029D /* SelectTicketTypeVC.m */; };
+		523BC78C194984E80089029D /* TicketTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BC78B194984E80089029D /* TicketTypeCell.m */; };
+		523E366E19F4CAAA00DA4E6B /* InputPrepaidVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E366D19F4CAAA00DA4E6B /* InputPrepaidVC.m */; };
+		523F69661945B6F30025DB6E /* SeatPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F69651945B6F30025DB6E /* SeatPlan.m */; };
+		523F69691945BD910025DB6E /* Seat.m in Sources */ = {isa = PBXBuildFile; fileRef = 523F69681945BD910025DB6E /* Seat.m */; };
+		523FD35D1938816400A59E19 /* ShowTripHolidayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD35C1938816400A59E19 /* ShowTripHolidayVC.m */; };
+		523FD9821936E62100B288A8 /* AddTripHolidayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 523FD9811936E62100B288A8 /* AddTripHolidayVC.m */; };
+		524B5EDF19514DF400116E8E /* ShowEditAllVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B5EDE19514DF400116E8E /* ShowEditAllVC.m */; };
+		524B5EE31951804900116E8E /* DailySaleReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524B5EE21951804900116E8E /* DailySaleReportVC.m */; };
+		524E31A1193DB53D00DDFBF0 /* Agent.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E31A0193DB53D00DDFBF0 /* Agent.m */; };
+		524E31A4193DC1B100DDFBF0 /* Seatplan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E31A3193DC1B100DDFBF0 /* Seatplan.storyboard */; };
+		524E31A7193DC1DE00DDFBF0 /* CreateSeatplanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 524E31A6193DC1DE00DDFBF0 /* CreateSeatplanVC.m */; };
+		525FE4EE1A07379B00904B2D /* UIColor+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 525FE4ED1A07379B00904B2D /* UIColor+Utilities.m */; };
+		5261BA631947136500FDA38C /* SelectScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261BA621947136500FDA38C /* SelectScreenVC.m */; };
+		5261BA66194715AD00FDA38C /* CreateSeatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5261BA65194715AD00FDA38C /* CreateSeatVC.m */; };
+		527D7B921A021A880073698A /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D7B8F1A021A880073698A /* AnimatedTransitioning.m */; };
+		527D7B931A021A880073698A /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 527D7B911A021A880073698A /* TransitionDelegate.m */; };
+		527F924E1924703E006EE584 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 527F924D1924703E006EE584 /* LoginVC.m */; };
+		528FC2B219FA5033004BCA5E /* EditCreditListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FC2B119FA5033004BCA5E /* EditCreditListVC.m */; };
+		528FC2B519FA5E0C004BCA5E /* ChangeBusGateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 528FC2B419FA5E0C004BCA5E /* ChangeBusGateVC.m */; };
+		5291B1B5192489D000152DA5 /* BusSchedulePopoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5291B1B4192489D000152DA5 /* BusSchedulePopoverVC.m */; };
+		5291B1B819249C0800152DA5 /* CheckBusSchedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5291B1B719249C0800152DA5 /* CheckBusSchedule.storyboard */; };
+		5291B1BB19249FB400152DA5 /* CheckBusScheduleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5291B1BA19249FB400152DA5 /* CheckBusScheduleVC.m */; };
+		529981A619ECE32800886EAE /* HotSaleTrip.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529981A519ECE32800886EAE /* HotSaleTrip.storyboard */; };
+		529981A919ECE4A100886EAE /* HotSaleTripReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 529981A819ECE4A100886EAE /* HotSaleTripReportVC.m */; };
+		529981AC19ED341B00886EAE /* HotSaleTripByTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 529981AB19ED341B00886EAE /* HotSaleTripByTimeVC.m */; };
+		52F3138B193321140044CADE /* ManageCar&Price.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F3138A193321140044CADE /* ManageCar&Price.storyboard */; };
+		52F31394193321FB0044CADE /* ManageCarPriceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F31393193321FB0044CADE /* ManageCarPriceVC.m */; };
+		52F313961933271B0044CADE /* TripList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F313951933271B0044CADE /* TripList.storyboard */; };
+		52F3139C193328F00044CADE /* TripListTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F3139B193328F00044CADE /* TripListTabVC.m */; };
+		52F3139E19332A130044CADE /* AgentTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F3139D19332A130044CADE /* AgentTab.storyboard */; };
+		52F313A119332A230044CADE /* AgentTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313A019332A230044CADE /* AgentTabVC.m */; };
+		52F313A319332D020044CADE /* CustomerListTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F313A219332D020044CADE /* CustomerListTab.storyboard */; };
+		52F313A619332D240044CADE /* CustomerListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313A519332D240044CADE /* CustomerListVC.m */; };
+		52F313A919333D270044CADE /* AddTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313A819333D270044CADE /* AddTripVC.m */; };
+		52F313AD193349E50044CADE /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313AC193349E50044CADE /* RadioButton.m */; };
+		52F313B219334A190044CADE /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313AE19334A190044CADE /* checked.png */; };
+		52F313B319334A190044CADE /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313AF19334A190044CADE /* checked@2x.png */; };
+		52F313B419334A190044CADE /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313B019334A190044CADE /* unchecked.png */; };
+		52F313B519334A190044CADE /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313B119334A190044CADE /* unchecked@2x.png */; };
+		52F313D1193353570044CADE /* cb_box_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313B8193353570044CADE /* cb_box_off.png */; };
+		52F313D2193353570044CADE /* cb_box_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313B9193353570044CADE /* cb_box_off@2x.png */; };
+		52F313D3193353570044CADE /* cb_box_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BA193353570044CADE /* cb_box_on.png */; };
+		52F313D4193353570044CADE /* cb_box_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BB193353570044CADE /* cb_box_on@2x.png */; };
+		52F313D5193353570044CADE /* cb_dark_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BC193353570044CADE /* cb_dark_off.png */; };
+		52F313D6193353570044CADE /* cb_dark_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BD193353570044CADE /* cb_dark_off@2x.png */; };
+		52F313D7193353570044CADE /* cb_dark_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BE193353570044CADE /* cb_dark_on.png */; };
+		52F313D8193353570044CADE /* cb_dark_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313BF193353570044CADE /* cb_dark_on@2x.png */; };
+		52F313D9193353570044CADE /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C0193353570044CADE /* cb_glossy_off.png */; };
+		52F313DA193353570044CADE /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C1193353570044CADE /* cb_glossy_off@2x.png */; };
+		52F313DB193353570044CADE /* cb_glossy_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C2193353570044CADE /* cb_glossy_on.png */; };
+		52F313DC193353570044CADE /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C3193353570044CADE /* cb_glossy_on@2x.png */; };
+		52F313DD193353570044CADE /* cb_green_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C4193353570044CADE /* cb_green_off.png */; };
+		52F313DE193353570044CADE /* cb_green_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C5193353570044CADE /* cb_green_off@2x.png */; };
+		52F313DF193353570044CADE /* cb_green_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C6193353570044CADE /* cb_green_on.png */; };
+		52F313E0193353570044CADE /* cb_green_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C7193353570044CADE /* cb_green_on@2x.png */; };
+		52F313E1193353570044CADE /* cb_mono_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C8193353570044CADE /* cb_mono_off.png */; };
+		52F313E2193353570044CADE /* cb_mono_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313C9193353570044CADE /* cb_mono_off@2x.png */; };
+		52F313E3193353570044CADE /* cb_mono_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313CA193353570044CADE /* cb_mono_on.png */; };
+		52F313E4193353570044CADE /* cb_mono_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52F313CB193353570044CADE /* cb_mono_on@2x.png */; };
+		52F313E5193353570044CADE /* UIHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313CE193353570044CADE /* UIHelpers.m */; };
+		52F313E6193353570044CADE /* SSCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F313D0193353570044CADE /* SSCheckBoxView.m */; };
+		52FA0D16195A7A4700E6F0BD /* DepartureReport.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FA0D15195A7A4700E6F0BD /* DepartureReport.storyboard */; };
+		52FA0D19195A7B9700E6F0BD /* DepartureBusReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0D18195A7B9700E6F0BD /* DepartureBusReportVC.m */; };
+		52FA0D1C195A960200E6F0BD /* DepartureAgentReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0D1B195A960200E6F0BD /* DepartureAgentReportVC.m */; };
+		52FA0D1F195AAB0700E6F0BD /* DepartureSeatReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0D1E195AAB0700E6F0BD /* DepartureSeatReportVC.m */; };
+		52FA0D21195AB5AD00E6F0BD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FA0D20195AB5AD00E6F0BD /* MessageUI.framework */; };
+		52FE6B4A19F4D49100C7A7C3 /* TripCommissionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE6B4919F4D49100C7A7C3 /* TripCommissionVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		523755CC191B6E7E00228B29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5237559E191B6E7E00228B29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 523755A5191B6E7E00228B29;
+			remoteInfo = BusOperator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52077FD919F0FC0100A8B86A /* InputCommissionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCommissionVC.h; sourceTree = "<group>"; };
+		52077FDA19F0FC0100A8B86A /* InputCommissionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCommissionVC.m; sourceTree = "<group>"; };
+		5208639A19F60DF1000D4C4A /* PaymentListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentListVC.h; sourceTree = "<group>"; };
+		5208639B19F60DF1000D4C4A /* PaymentListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentListVC.m; sourceTree = "<group>"; };
+		5208639D19F65B1D000D4C4A /* CreditListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditListVC.h; sourceTree = "<group>"; };
+		5208639E19F65B1D000D4C4A /* CreditListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditListVC.m; sourceTree = "<group>"; };
+		520C1390193C40A50009BB7A /* add_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_icon.png; sourceTree = "<group>"; };
+		521247DC193C6915000336FF /* DataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataFetcher.h; sourceTree = "<group>"; };
+		521247DD193C6915000336FF /* DataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataFetcher.m; sourceTree = "<group>"; };
+		521247E1193C6BF8000336FF /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		521247E2193C6BF8000336FF /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		521247E3193C6BF8000336FF /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		521247E4193C6BF8000336FF /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		521247E5193C6BF8000336FF /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		521247E6193C6BF8000336FF /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		521247E7193C6BF8000336FF /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		521247E8193C6BF8000336FF /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		521247EA193C6BF8000336FF /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		521247EB193C6BF8000336FF /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		521247EC193C6BF8000336FF /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		521247EE193C6BF8000336FF /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		521247EF193C6BF8000336FF /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		521247F0193C6BF8000336FF /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		521247F1193C6BF8000336FF /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		521247F2193C6BF8000336FF /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		521247F3193C6BF8000336FF /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		521247F5193C6BF8000336FF /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		521247F6193C6BF8000336FF /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		521247F7193C6BF8000336FF /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		521247F8193C6BF8000336FF /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		52124804193C6C57000336FF /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		52124805193C6C57000336FF /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		52124808193C6F7A000336FF /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		52124809193C6F7A000336FF /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		5212480A193C6F7A000336FF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		5212480B193C6F7A000336FF /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		5212480C193C6F7A000336FF /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		5212480D193C6F7A000336FF /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		5212480E193C6F7A000336FF /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		5212480F193C6F7A000336FF /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		52124810193C6F7A000336FF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		52124811193C6F7A000336FF /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		52124812193C6F7A000336FF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		52124813193C6F7A000336FF /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		52124814193C6F7A000336FF /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		52124815193C6F7A000336FF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		52124816193C6F7A000336FF /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		52124817193C6F7A000336FF /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		52124818193C6F7A000336FF /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		52124819193C6F7A000336FF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5212481A193C6F7A000336FF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		52124824193C6FBF000336FF /* TicketingAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketingAPIClient.h; sourceTree = "<group>"; };
+		52124825193C6FBF000336FF /* TicketingAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketingAPIClient.m; sourceTree = "<group>"; };
+		52124827193C7CC7000336FF /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		52124828193C7CC7000336FF /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		5212A55419FE377300E48C08 /* AgentListPopOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentListPopOver.h; sourceTree = "<group>"; };
+		5212A55519FE377300E48C08 /* AgentListPopOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentListPopOver.m; sourceTree = "<group>"; };
+		52150C4319232205002D65BE /* BusSchedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BusSchedule.storyboard; sourceTree = "<group>"; };
+		52150C45192322BA002D65BE /* AddBusScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBusScheduleVC.h; sourceTree = "<group>"; };
+		52150C46192322BA002D65BE /* AddBusScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBusScheduleVC.m; sourceTree = "<group>"; };
+		52150C481923258D002D65BE /* BusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusCell.h; sourceTree = "<group>"; };
+		52150C491923258D002D65BE /* BusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusCell.m; sourceTree = "<group>"; };
+		52150C4C19232D14002D65BE /* SelectBusTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBusTypeVC.h; sourceTree = "<group>"; };
+		52150C4D19232D14002D65BE /* SelectBusTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBusTypeVC.m; sourceTree = "<group>"; };
+		52150C4F192355B9002D65BE /* SeatReservationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatReservationVC.h; sourceTree = "<group>"; };
+		52150C50192355B9002D65BE /* SeatReservationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatReservationVC.m; sourceTree = "<group>"; };
+		52164E9419207479002821EA /* TripReportByAllTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripReportByAllTimeVC.h; sourceTree = "<group>"; };
+		52164E9519207479002821EA /* TripReportByAllTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripReportByAllTimeVC.m; sourceTree = "<group>"; };
+		52164E9719208450002821EA /* SeatOccupacy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SeatOccupacy.storyboard; sourceTree = "<group>"; };
+		52164E991920848A002821EA /* SeatOccupacyReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatOccupacyReportVC.h; sourceTree = "<group>"; };
+		52164E9A1920848A002821EA /* SeatOccupacyReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatOccupacyReportVC.m; sourceTree = "<group>"; };
+		52164EA11920A8A5002821EA /* MultiLineSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiLineSegmentedControl.h; sourceTree = "<group>"; };
+		52164EA21920A8A5002821EA /* MultiLineSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiLineSegmentedControl.m; sourceTree = "<group>"; };
+		52164EA41920A8C4002821EA /* UIView+LayerShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayerShot.h"; sourceTree = "<group>"; };
+		52164EA51920A8C4002821EA /* UIView+LayerShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayerShot.m"; sourceTree = "<group>"; };
+		52164EA71920B10F002821EA /* DetailSeatOccupacyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSeatOccupacyVC.h; sourceTree = "<group>"; };
+		52164EA81920B10F002821EA /* DetailSeatOccupacyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSeatOccupacyVC.m; sourceTree = "<group>"; };
+		52164EAA1920B3D8002821EA /* SeatOccupacyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatOccupacyCell.h; sourceTree = "<group>"; };
+		52164EAB1920B3D8002821EA /* SeatOccupacyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatOccupacyCell.m; sourceTree = "<group>"; };
+		52189CCF1924698900671171 /* Zawgyi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zawgyi.ttf; sourceTree = "<group>"; };
+		521AE779195BDEBD000A470B /* ShowHolidayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowHolidayVC.h; sourceTree = "<group>"; };
+		521AE77A195BDEBD000A470B /* ShowHolidayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowHolidayVC.m; sourceTree = "<group>"; };
+		521AE77C195BE79A000A470B /* HolidayDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HolidayDateVC.h; sourceTree = "<group>"; };
+		521AE77D195BE79A000A470B /* HolidayDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HolidayDateVC.m; sourceTree = "<group>"; };
+		521BC10A193D943300F9A122 /* TripDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripDetail.h; sourceTree = "<group>"; };
+		521BC10B193D943300F9A122 /* TripDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripDetail.m; sourceTree = "<group>"; };
+		521BC10D193D9D6D00F9A122 /* BusClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusClass.h; sourceTree = "<group>"; };
+		521BC10E193D9D6D00F9A122 /* BusClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusClass.m; sourceTree = "<group>"; };
+		521CA86319FF47DC00C63477 /* MakePaymentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePaymentVC.h; sourceTree = "<group>"; };
+		521CA86419FF47DC00C63477 /* MakePaymentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePaymentVC.m; sourceTree = "<group>"; };
+		521CCEED19EE4A2E00E16213 /* HotSaleAgent.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HotSaleAgent.storyboard; sourceTree = "<group>"; };
+		521CCEEF19EE4C7F00E16213 /* HotSaleAgentReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSaleAgentReportVC.h; sourceTree = "<group>"; };
+		521CCEF019EE4C7F00E16213 /* HotSaleAgentReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSaleAgentReportVC.m; sourceTree = "<group>"; };
+		521CCEF219EE654300E16213 /* HotSaleAgentTripReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSaleAgentTripReportVC.h; sourceTree = "<group>"; };
+		521CCEF319EE654300E16213 /* HotSaleAgentTripReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSaleAgentTripReportVC.m; sourceTree = "<group>"; };
+		521CCEF619EE775900E16213 /* HotSaleType.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HotSaleType.storyboard; sourceTree = "<group>"; };
+		521CCEF919EE781900E16213 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		521CCEFA19EE781900E16213 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		521CCEFC19EE783500E16213 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		521CCEFE19EE788900E16213 /* HotSaleTypeReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSaleTypeReportVC.h; sourceTree = "<group>"; };
+		521CCEFF19EE788900E16213 /* HotSaleTypeReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSaleTypeReportVC.m; sourceTree = "<group>"; };
+		521FF2CE193F1E2200F22466 /* SelectAgentGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAgentGroupVC.h; sourceTree = "<group>"; };
+		521FF2CF193F1E2200F22466 /* SelectAgentGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAgentGroupVC.m; sourceTree = "<group>"; };
+		521FF2D1193F1ECC00F22466 /* AgentGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentGroup.h; sourceTree = "<group>"; };
+		521FF2D2193F1ECC00F22466 /* AgentGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentGroup.m; sourceTree = "<group>"; };
+		521FF2D5193F325C00F22466 /* AddNew.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddNew.storyboard; sourceTree = "<group>"; };
+		521FF2D7193F328C00F22466 /* AddNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewVC.h; sourceTree = "<group>"; };
+		521FF2D8193F328C00F22466 /* AddNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewVC.m; sourceTree = "<group>"; };
+		52209F2B194020E300EF6F21 /* CreateAgentGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAgentGroupVC.h; sourceTree = "<group>"; };
+		52209F2C194020E300EF6F21 /* CreateAgentGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAgentGroupVC.m; sourceTree = "<group>"; };
+		52209F2F1940250600EF6F21 /* JDStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarNotification.h; sourceTree = "<group>"; };
+		52209F301940250600EF6F21 /* JDStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarNotification.m; sourceTree = "<group>"; };
+		52209F311940250600EF6F21 /* JDStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarStyle.h; sourceTree = "<group>"; };
+		52209F321940250600EF6F21 /* JDStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarStyle.m; sourceTree = "<group>"; };
+		52209F331940250600EF6F21 /* JDStatusBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDStatusBarView.h; sourceTree = "<group>"; };
+		52209F341940250600EF6F21 /* JDStatusBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDStatusBarView.m; sourceTree = "<group>"; };
+		522137A31948081C00946EA8 /* SeatlayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatlayoutCell.h; sourceTree = "<group>"; };
+		522137A41948081C00946EA8 /* SeatlayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatlayoutCell.m; sourceTree = "<group>"; };
+		522137A71948423900946EA8 /* AddSeatNameVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSeatNameVC.h; sourceTree = "<group>"; };
+		522137A81948423900946EA8 /* AddSeatNameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSeatNameVC.m; sourceTree = "<group>"; };
+		522437B1191C8ADD0005E426 /* TripReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripReportCell.h; sourceTree = "<group>"; };
+		522437B2191C8ADD0005E426 /* TripReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripReportCell.m; sourceTree = "<group>"; };
+		522437B5191C92170005E426 /* TripListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListVC.h; sourceTree = "<group>"; };
+		522437B6191C92170005E426 /* TripListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListVC.m; sourceTree = "<group>"; };
+		522437B8191C975F0005E426 /* TripTimeListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripTimeListVC.h; sourceTree = "<group>"; };
+		522437B9191C975F0005E426 /* TripTimeListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripTimeListVC.m; sourceTree = "<group>"; };
+		522437BB191C9B7D0005E426 /* FromDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FromDateVC.h; sourceTree = "<group>"; };
+		522437BC191C9B7D0005E426 /* FromDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FromDateVC.m; sourceTree = "<group>"; };
+		522437BF191C9D8C0005E426 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		522437C0191C9D8C0005E426 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		522437C2191C9D8C0005E426 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		522437C3191C9D8C0005E426 /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrow@2x.png"; sourceTree = "<group>"; };
+		522437C4191C9D8C0005E426 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		522437C5191C9D8C0005E426 /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
+		522437CB191C9F160005E426 /* ToDateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDateVC.h; sourceTree = "<group>"; };
+		522437CC191C9F160005E426 /* ToDateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDateVC.m; sourceTree = "<group>"; };
+		522437CE191CBB8B0005E426 /* TripReportByBusNoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripReportByBusNoVC.h; sourceTree = "<group>"; };
+		522437CF191CBB8B0005E426 /* TripReportByBusNoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripReportByBusNoVC.m; sourceTree = "<group>"; };
+		522437D1191CD4EF0005E426 /* TripReportBySeatNoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripReportBySeatNoVC.h; sourceTree = "<group>"; };
+		522437D2191CD4EF0005E426 /* TripReportBySeatNoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripReportBySeatNoVC.m; sourceTree = "<group>"; };
+		5224EA8219344FD3005AF853 /* ChooseCityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseCityVC.h; sourceTree = "<group>"; };
+		5224EA8319344FD3005AF853 /* ChooseCityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseCityVC.m; sourceTree = "<group>"; };
+		5224EA8519345841005AF853 /* ChooseBusClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseBusClass.h; sourceTree = "<group>"; };
+		5224EA8619345841005AF853 /* ChooseBusClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseBusClass.m; sourceTree = "<group>"; };
+		5224EA88193471A4005AF853 /* HomeArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeArrow.png; sourceTree = "<group>"; };
+		5224EA8A19347550005AF853 /* EditTripListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTripListVC.h; sourceTree = "<group>"; };
+		5224EA8B19347550005AF853 /* EditTripListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTripListVC.m; sourceTree = "<group>"; };
+		5224EA8E19349C38005AF853 /* ManageBusTypePrice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ManageBusTypePrice.storyboard; sourceTree = "<group>"; };
+		5224EA9019349C5E005AF853 /* ManageBusTypePriceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageBusTypePriceVC.h; sourceTree = "<group>"; };
+		5224EA9119349C5E005AF853 /* ManageBusTypePriceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageBusTypePriceVC.m; sourceTree = "<group>"; };
+		522713BF19F0C63C00882879 /* CreditAgentDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditAgentDetailVC.h; sourceTree = "<group>"; };
+		522713C019F0C63C00882879 /* CreditAgentDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditAgentDetailVC.m; sourceTree = "<group>"; };
+		522713C219F0D53200882879 /* InputCreditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCreditVC.h; sourceTree = "<group>"; };
+		522713C319F0D53200882879 /* InputCreditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCreditVC.m; sourceTree = "<group>"; };
+		5227860D19613FFB00D28B75 /* OperatorShowEditAllVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorShowEditAllVC.h; sourceTree = "<group>"; };
+		5227860E19613FFB00D28B75 /* OperatorShowEditAllVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorShowEditAllVC.m; sourceTree = "<group>"; };
+		522786101961644900D28B75 /* CommissionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommissionType.h; sourceTree = "<group>"; };
+		522786111961644900D28B75 /* CommissionType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommissionType.m; sourceTree = "<group>"; };
+		5227F52F195009890022C16E /* DailyReport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DailyReport.storyboard; sourceTree = "<group>"; };
+		5227F53119500A800022C16E /* DepartureReportWithTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureReportWithTimeVC.h; sourceTree = "<group>"; };
+		5227F53219500A800022C16E /* DepartureReportWithTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureReportWithTimeVC.m; sourceTree = "<group>"; };
+		5227F534195040070022C16E /* DepartureReportWithBusNoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureReportWithBusNoVC.h; sourceTree = "<group>"; };
+		5227F535195040070022C16E /* DepartureReportWithBusNoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureReportWithBusNoVC.m; sourceTree = "<group>"; };
+		5227F537195048930022C16E /* DepartureReportWithSeatNoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureReportWithSeatNoVC.h; sourceTree = "<group>"; };
+		5227F538195048930022C16E /* DepartureReportWithSeatNoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureReportWithSeatNoVC.m; sourceTree = "<group>"; };
+		5227F53B195052580022C16E /* AdvancedReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedReportVC.h; sourceTree = "<group>"; };
+		5227F53C195052580022C16E /* AdvancedReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedReportVC.m; sourceTree = "<group>"; };
+		522DEFB519EFB24C00300EAE /* ReportAgentCredit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReportAgentCredit.storyboard; sourceTree = "<group>"; };
+		522DEFB719EFBB8600300EAE /* CreditAgentListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditAgentListVC.h; sourceTree = "<group>"; };
+		522DEFB819EFBB8600300EAE /* CreditAgentListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditAgentListVC.m; sourceTree = "<group>"; };
+		522F7685195D67E700E3FFF2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5233904619358C9D00B00D70 /* ShowBusScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowBusScheduleVC.h; sourceTree = "<group>"; };
+		5233904719358C9D00B00D70 /* ShowBusScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowBusScheduleVC.m; sourceTree = "<group>"; };
+		5233904C1935CF1E00B00D70 /* AddNewBusScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewBusScheduleVC.h; sourceTree = "<group>"; };
+		5233904D1935CF1E00B00D70 /* AddNewBusScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewBusScheduleVC.m; sourceTree = "<group>"; };
+		52349AA71958062F00D2D172 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		52349AA81958062F00D2D172 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		52351182194AA70400B7BA09 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		52351183194AA70400B7BA09 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
+		52351186194AA88900B7BA09 /* SelectOperatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectOperatorVC.h; sourceTree = "<group>"; };
+		52351187194AA88900B7BA09 /* SelectOperatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectOperatorVC.m; sourceTree = "<group>"; };
+		52351189194AB4A100B7BA09 /* CreateNewTicketTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewTicketTypeVC.h; sourceTree = "<group>"; };
+		5235118A194AB4A100B7BA09 /* CreateNewTicketTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewTicketTypeVC.m; sourceTree = "<group>"; };
+		523537FA194EA1EC00EF5280 /* ChooseSeatPlanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSeatPlanVC.h; sourceTree = "<group>"; };
+		523537FB194EA1EC00EF5280 /* ChooseSeatPlanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSeatPlanVC.m; sourceTree = "<group>"; };
+		523537FD194F040700EF5280 /* customCollcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCollcell.h; sourceTree = "<group>"; };
+		523537FE194F040700EF5280 /* customCollcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCollcell.m; sourceTree = "<group>"; };
+		52359FD11977829A007EAB9B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		52359FD21977829A007EAB9B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		523755A6191B6E7E00228B29 /* BusOperator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusOperator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523755A9191B6E7E00228B29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		523755AB191B6E7E00228B29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		523755AD191B6E7E00228B29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		523755B1191B6E7E00228B29 /* BusOperator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusOperator-Info.plist"; sourceTree = "<group>"; };
+		523755B3191B6E7E00228B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		523755B5191B6E7E00228B29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523755B7191B6E7E00228B29 /* BusOperator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusOperator-Prefix.pch"; sourceTree = "<group>"; };
+		523755B8191B6E7E00228B29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523755B9191B6E7E00228B29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		523755BC191B6E7E00228B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		523755BE191B6E7E00228B29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		523755BF191B6E7E00228B29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		523755C1191B6E7E00228B29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		523755C7191B6E7E00228B29 /* BusOperatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusOperatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		523755C8191B6E7E00228B29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		523755D0191B6E7E00228B29 /* BusOperatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusOperatorTests-Info.plist"; sourceTree = "<group>"; };
+		523755D2191B6E7E00228B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		523755D4191B6E7E00228B29 /* BusOperatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusOperatorTests.m; sourceTree = "<group>"; };
+		523755E7191B725600228B29 /* HomeSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSelectVC.h; sourceTree = "<group>"; };
+		523755E8191B725600228B29 /* HomeSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeSelectVC.m; sourceTree = "<group>"; };
+		523755EB191B770400228B29 /* BkgColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BkgColor.png; sourceTree = "<group>"; };
+		523755EE191B786A00228B29 /* UIStoryboard+MultipleStoryboards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+MultipleStoryboards.h"; sourceTree = "<group>"; };
+		523755EF191B786A00228B29 /* UIStoryboard+MultipleStoryboards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+MultipleStoryboards.m"; sourceTree = "<group>"; };
+		523755F1191B78B400228B29 /* AgentsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgentsStoryboard.storyboard; sourceTree = "<group>"; };
+		523755F3191B7AFF00228B29 /* AgentSelectVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentSelectVC.h; sourceTree = "<group>"; };
+		523755F4191B7AFF00228B29 /* AgentSelectVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentSelectVC.m; sourceTree = "<group>"; };
+		523755F7191B827200228B29 /* AgentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentCell.h; sourceTree = "<group>"; };
+		523755F8191B827200228B29 /* AgentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentCell.m; sourceTree = "<group>"; };
+		523755FA191B887300228B29 /* Trips.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Trips.storyboard; sourceTree = "<group>"; };
+		523755FC191B889A00228B29 /* TripReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripReportVC.h; sourceTree = "<group>"; };
+		523755FD191B889A00228B29 /* TripReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripReportVC.m; sourceTree = "<group>"; };
+		523BC77C19495CC50089029D /* CreateNewCityVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewCityVC.h; sourceTree = "<group>"; };
+		523BC77D19495CC50089029D /* CreateNewCityVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewCityVC.m; sourceTree = "<group>"; };
+		523BC77F194965B40089029D /* CreateNewBusTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewBusTypeVC.h; sourceTree = "<group>"; };
+		523BC780194965B40089029D /* CreateNewBusTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewBusTypeVC.m; sourceTree = "<group>"; };
+		523BC78219496C5A0089029D /* CreateNewOperatorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewOperatorVC.h; sourceTree = "<group>"; };
+		523BC78319496C5A0089029D /* CreateNewOperatorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewOperatorVC.m; sourceTree = "<group>"; };
+		523BC7861949827D0089029D /* SelectTicketTypeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTicketTypeVC.h; sourceTree = "<group>"; };
+		523BC7871949827D0089029D /* SelectTicketTypeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTicketTypeVC.m; sourceTree = "<group>"; };
+		523BC78A194984E80089029D /* TicketTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketTypeCell.h; sourceTree = "<group>"; };
+		523BC78B194984E80089029D /* TicketTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketTypeCell.m; sourceTree = "<group>"; };
+		523E366C19F4CAAA00DA4E6B /* InputPrepaidVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputPrepaidVC.h; sourceTree = "<group>"; };
+		523E366D19F4CAAA00DA4E6B /* InputPrepaidVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputPrepaidVC.m; sourceTree = "<group>"; };
+		523F69641945B6F30025DB6E /* SeatPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeatPlan.h; sourceTree = "<group>"; };
+		523F69651945B6F30025DB6E /* SeatPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeatPlan.m; sourceTree = "<group>"; };
+		523F69671945BD910025DB6E /* Seat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seat.h; sourceTree = "<group>"; };
+		523F69681945BD910025DB6E /* Seat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seat.m; sourceTree = "<group>"; };
+		523FD35B1938816400A59E19 /* ShowTripHolidayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowTripHolidayVC.h; sourceTree = "<group>"; };
+		523FD35C1938816400A59E19 /* ShowTripHolidayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowTripHolidayVC.m; sourceTree = "<group>"; };
+		523FD9801936E62100B288A8 /* AddTripHolidayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTripHolidayVC.h; sourceTree = "<group>"; };
+		523FD9811936E62100B288A8 /* AddTripHolidayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTripHolidayVC.m; sourceTree = "<group>"; };
+		524B5EDD19514DF400116E8E /* ShowEditAllVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowEditAllVC.h; sourceTree = "<group>"; };
+		524B5EDE19514DF400116E8E /* ShowEditAllVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowEditAllVC.m; sourceTree = "<group>"; };
+		524B5EE11951804900116E8E /* DailySaleReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailySaleReportVC.h; sourceTree = "<group>"; };
+		524B5EE21951804900116E8E /* DailySaleReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailySaleReportVC.m; sourceTree = "<group>"; };
+		524E319F193DB53D00DDFBF0 /* Agent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agent.h; sourceTree = "<group>"; };
+		524E31A0193DB53D00DDFBF0 /* Agent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Agent.m; sourceTree = "<group>"; };
+		524E31A3193DC1B100DDFBF0 /* Seatplan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Seatplan.storyboard; sourceTree = "<group>"; };
+		524E31A5193DC1DE00DDFBF0 /* CreateSeatplanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSeatplanVC.h; sourceTree = "<group>"; };
+		524E31A6193DC1DE00DDFBF0 /* CreateSeatplanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSeatplanVC.m; sourceTree = "<group>"; };
+		525FE4EC1A07379B00904B2D /* UIColor+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utilities.h"; sourceTree = "<group>"; };
+		525FE4ED1A07379B00904B2D /* UIColor+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utilities.m"; sourceTree = "<group>"; };
+		5261BA611947136500FDA38C /* SelectScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectScreenVC.h; sourceTree = "<group>"; };
+		5261BA621947136500FDA38C /* SelectScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectScreenVC.m; sourceTree = "<group>"; };
+		5261BA64194715AD00FDA38C /* CreateSeatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSeatVC.h; sourceTree = "<group>"; };
+		5261BA65194715AD00FDA38C /* CreateSeatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSeatVC.m; sourceTree = "<group>"; };
+		527D7B8E1A021A880073698A /* AnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
+		527D7B8F1A021A880073698A /* AnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
+		527D7B901A021A880073698A /* TransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDelegate.h; sourceTree = "<group>"; };
+		527D7B911A021A880073698A /* TransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDelegate.m; sourceTree = "<group>"; };
+		527F924C1924703E006EE584 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		527F924D1924703E006EE584 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		528FC2B019FA5033004BCA5E /* EditCreditListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCreditListVC.h; sourceTree = "<group>"; };
+		528FC2B119FA5033004BCA5E /* EditCreditListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCreditListVC.m; sourceTree = "<group>"; };
+		528FC2B319FA5E0C004BCA5E /* ChangeBusGateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeBusGateVC.h; sourceTree = "<group>"; };
+		528FC2B419FA5E0C004BCA5E /* ChangeBusGateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeBusGateVC.m; sourceTree = "<group>"; };
+		5291B1B3192489D000152DA5 /* BusSchedulePopoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusSchedulePopoverVC.h; sourceTree = "<group>"; };
+		5291B1B4192489D000152DA5 /* BusSchedulePopoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusSchedulePopoverVC.m; sourceTree = "<group>"; };
+		5291B1B719249C0800152DA5 /* CheckBusSchedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CheckBusSchedule.storyboard; sourceTree = "<group>"; };
+		5291B1B919249FB400152DA5 /* CheckBusScheduleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBusScheduleVC.h; sourceTree = "<group>"; };
+		5291B1BA19249FB400152DA5 /* CheckBusScheduleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBusScheduleVC.m; sourceTree = "<group>"; };
+		529981A519ECE32800886EAE /* HotSaleTrip.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HotSaleTrip.storyboard; sourceTree = "<group>"; };
+		529981A719ECE4A100886EAE /* HotSaleTripReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSaleTripReportVC.h; sourceTree = "<group>"; };
+		529981A819ECE4A100886EAE /* HotSaleTripReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSaleTripReportVC.m; sourceTree = "<group>"; };
+		529981AA19ED341B00886EAE /* HotSaleTripByTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotSaleTripByTimeVC.h; sourceTree = "<group>"; };
+		529981AB19ED341B00886EAE /* HotSaleTripByTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotSaleTripByTimeVC.m; sourceTree = "<group>"; };
+		52F3138A193321140044CADE /* ManageCar&Price.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ManageCar&Price.storyboard"; sourceTree = "<group>"; };
+		52F31392193321FB0044CADE /* ManageCarPriceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageCarPriceVC.h; sourceTree = "<group>"; };
+		52F31393193321FB0044CADE /* ManageCarPriceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageCarPriceVC.m; sourceTree = "<group>"; };
+		52F313951933271B0044CADE /* TripList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TripList.storyboard; sourceTree = "<group>"; };
+		52F3139A193328F00044CADE /* TripListTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripListTabVC.h; sourceTree = "<group>"; };
+		52F3139B193328F00044CADE /* TripListTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripListTabVC.m; sourceTree = "<group>"; };
+		52F3139D19332A130044CADE /* AgentTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AgentTab.storyboard; sourceTree = "<group>"; };
+		52F3139F19332A230044CADE /* AgentTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentTabVC.h; sourceTree = "<group>"; };
+		52F313A019332A230044CADE /* AgentTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentTabVC.m; sourceTree = "<group>"; };
+		52F313A219332D020044CADE /* CustomerListTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CustomerListTab.storyboard; sourceTree = "<group>"; };
+		52F313A419332D240044CADE /* CustomerListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerListVC.h; sourceTree = "<group>"; };
+		52F313A519332D240044CADE /* CustomerListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerListVC.m; sourceTree = "<group>"; };
+		52F313A719333D270044CADE /* AddTripVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTripVC.h; sourceTree = "<group>"; };
+		52F313A819333D270044CADE /* AddTripVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTripVC.m; sourceTree = "<group>"; };
+		52F313AB193349E50044CADE /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		52F313AC193349E50044CADE /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		52F313AE19334A190044CADE /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		52F313AF19334A190044CADE /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		52F313B019334A190044CADE /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		52F313B119334A190044CADE /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		52F313B8193353570044CADE /* cb_box_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_off.png; sourceTree = "<group>"; };
+		52F313B9193353570044CADE /* cb_box_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_off@2x.png"; sourceTree = "<group>"; };
+		52F313BA193353570044CADE /* cb_box_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_box_on.png; sourceTree = "<group>"; };
+		52F313BB193353570044CADE /* cb_box_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_box_on@2x.png"; sourceTree = "<group>"; };
+		52F313BC193353570044CADE /* cb_dark_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_off.png; sourceTree = "<group>"; };
+		52F313BD193353570044CADE /* cb_dark_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_off@2x.png"; sourceTree = "<group>"; };
+		52F313BE193353570044CADE /* cb_dark_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_dark_on.png; sourceTree = "<group>"; };
+		52F313BF193353570044CADE /* cb_dark_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_dark_on@2x.png"; sourceTree = "<group>"; };
+		52F313C0193353570044CADE /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
+		52F313C1193353570044CADE /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
+		52F313C2193353570044CADE /* cb_glossy_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_on.png; sourceTree = "<group>"; };
+		52F313C3193353570044CADE /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
+		52F313C4193353570044CADE /* cb_green_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_off.png; sourceTree = "<group>"; };
+		52F313C5193353570044CADE /* cb_green_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_off@2x.png"; sourceTree = "<group>"; };
+		52F313C6193353570044CADE /* cb_green_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_green_on.png; sourceTree = "<group>"; };
+		52F313C7193353570044CADE /* cb_green_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_green_on@2x.png"; sourceTree = "<group>"; };
+		52F313C8193353570044CADE /* cb_mono_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_off.png; sourceTree = "<group>"; };
+		52F313C9193353570044CADE /* cb_mono_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_off@2x.png"; sourceTree = "<group>"; };
+		52F313CA193353570044CADE /* cb_mono_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_mono_on.png; sourceTree = "<group>"; };
+		52F313CB193353570044CADE /* cb_mono_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_mono_on@2x.png"; sourceTree = "<group>"; };
+		52F313CD193353570044CADE /* UIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelpers.h; sourceTree = "<group>"; };
+		52F313CE193353570044CADE /* UIHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelpers.m; sourceTree = "<group>"; };
+		52F313CF193353570044CADE /* SSCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSCheckBoxView.h; sourceTree = "<group>"; };
+		52F313D0193353570044CADE /* SSCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSCheckBoxView.m; sourceTree = "<group>"; };
+		52FA0D15195A7A4700E6F0BD /* DepartureReport.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DepartureReport.storyboard; sourceTree = "<group>"; };
+		52FA0D17195A7B9700E6F0BD /* DepartureBusReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureBusReportVC.h; sourceTree = "<group>"; };
+		52FA0D18195A7B9700E6F0BD /* DepartureBusReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureBusReportVC.m; sourceTree = "<group>"; };
+		52FA0D1A195A960200E6F0BD /* DepartureAgentReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureAgentReportVC.h; sourceTree = "<group>"; };
+		52FA0D1B195A960200E6F0BD /* DepartureAgentReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureAgentReportVC.m; sourceTree = "<group>"; };
+		52FA0D1D195AAB0700E6F0BD /* DepartureSeatReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureSeatReportVC.h; sourceTree = "<group>"; };
+		52FA0D1E195AAB0700E6F0BD /* DepartureSeatReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureSeatReportVC.m; sourceTree = "<group>"; };
+		52FA0D20195AB5AD00E6F0BD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		52FE6B4819F4D49100C7A7C3 /* TripCommissionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripCommissionVC.h; sourceTree = "<group>"; };
+		52FE6B4919F4D49100C7A7C3 /* TripCommissionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripCommissionVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523755A3191B6E7E00228B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521CCEFD19EE783500E16213 /* QuartzCore.framework in Frameworks */,
+				52FA0D21195AB5AD00E6F0BD /* MessageUI.framework in Frameworks */,
+				523755AC191B6E7E00228B29 /* CoreGraphics.framework in Frameworks */,
+				523755AE191B6E7E00228B29 /* UIKit.framework in Frameworks */,
+				523755AA191B6E7E00228B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523755C4191B6E7E00228B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523755C9191B6E7E00228B29 /* XCTest.framework in Frameworks */,
+				523755CB191B6E7E00228B29 /* UIKit.framework in Frameworks */,
+				523755CA191B6E7E00228B29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521247DB193C68EB000336FF /* DataFecterClass */ = {
+			isa = PBXGroup;
+			children = (
+				521247DC193C6915000336FF /* DataFetcher.h */,
+				521247DD193C6915000336FF /* DataFetcher.m */,
+				52124824193C6FBF000336FF /* TicketingAPIClient.h */,
+				52124825193C6FBF000336FF /* TicketingAPIClient.m */,
+			);
+			path = DataFecterClass;
+			sourceTree = "<group>";
+		};
+		521247DF193C6BF8000336FF /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				521247E0193C6BF8000336FF /* JSONModel */,
+				521247E9193C6BF8000336FF /* JSONModelCategories */,
+				521247EC193C6BF8000336FF /* JSONModelLib.h */,
+				521247ED193C6BF8000336FF /* JSONModelNetworking */,
+				521247F4193C6BF8000336FF /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		521247E0193C6BF8000336FF /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				521247E1193C6BF8000336FF /* JSONModel.h */,
+				521247E2193C6BF8000336FF /* JSONModel.m */,
+				521247E3193C6BF8000336FF /* JSONModelArray.h */,
+				521247E4193C6BF8000336FF /* JSONModelArray.m */,
+				521247E5193C6BF8000336FF /* JSONModelClassProperty.h */,
+				521247E6193C6BF8000336FF /* JSONModelClassProperty.m */,
+				521247E7193C6BF8000336FF /* JSONModelError.h */,
+				521247E8193C6BF8000336FF /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		521247E9193C6BF8000336FF /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				521247EA193C6BF8000336FF /* NSArray+JSONModel.h */,
+				521247EB193C6BF8000336FF /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		521247ED193C6BF8000336FF /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				521247EE193C6BF8000336FF /* JSONAPI.h */,
+				521247EF193C6BF8000336FF /* JSONAPI.m */,
+				521247F0193C6BF8000336FF /* JSONHTTPClient.h */,
+				521247F1193C6BF8000336FF /* JSONHTTPClient.m */,
+				521247F2193C6BF8000336FF /* JSONModel+networking.h */,
+				521247F3193C6BF8000336FF /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		521247F4193C6BF8000336FF /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				521247F5193C6BF8000336FF /* JSONKeyMapper.h */,
+				521247F6193C6BF8000336FF /* JSONKeyMapper.m */,
+				521247F7193C6BF8000336FF /* JSONValueTransformer.h */,
+				521247F8193C6BF8000336FF /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		52124803193C6C3A000336FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52124804193C6C57000336FF /* City.h */,
+				52124805193C6C57000336FF /* City.m */,
+				52124827193C7CC7000336FF /* Trip.h */,
+				52124828193C7CC7000336FF /* Trip.m */,
+				521BC10A193D943300F9A122 /* TripDetail.h */,
+				521BC10B193D943300F9A122 /* TripDetail.m */,
+				521BC10D193D9D6D00F9A122 /* BusClass.h */,
+				521BC10E193D9D6D00F9A122 /* BusClass.m */,
+				524E319F193DB53D00DDFBF0 /* Agent.h */,
+				524E31A0193DB53D00DDFBF0 /* Agent.m */,
+				521FF2D1193F1ECC00F22466 /* AgentGroup.h */,
+				521FF2D2193F1ECC00F22466 /* AgentGroup.m */,
+				523F69641945B6F30025DB6E /* SeatPlan.h */,
+				523F69651945B6F30025DB6E /* SeatPlan.m */,
+				523F69671945BD910025DB6E /* Seat.h */,
+				523F69681945BD910025DB6E /* Seat.m */,
+				52351182194AA70400B7BA09 /* Operator.h */,
+				52351183194AA70400B7BA09 /* Operator.m */,
+				52349AA71958062F00D2D172 /* Customer.h */,
+				52349AA81958062F00D2D172 /* Customer.m */,
+				522786101961644900D28B75 /* CommissionType.h */,
+				522786111961644900D28B75 /* CommissionType.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52124807193C6F7A000336FF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				52124808193C6F7A000336FF /* AFHTTPClient.h */,
+				52124809193C6F7A000336FF /* AFHTTPClient.m */,
+				5212480A193C6F7A000336FF /* AFHTTPRequestOperation.h */,
+				5212480B193C6F7A000336FF /* AFHTTPRequestOperation.m */,
+				5212480C193C6F7A000336FF /* AFImageRequestOperation.h */,
+				5212480D193C6F7A000336FF /* AFImageRequestOperation.m */,
+				5212480E193C6F7A000336FF /* AFJSONRequestOperation.h */,
+				5212480F193C6F7A000336FF /* AFJSONRequestOperation.m */,
+				52124810193C6F7A000336FF /* AFNetworkActivityIndicatorManager.h */,
+				52124811193C6F7A000336FF /* AFNetworkActivityIndicatorManager.m */,
+				52124812193C6F7A000336FF /* AFNetworking.h */,
+				52124813193C6F7A000336FF /* AFPropertyListRequestOperation.h */,
+				52124814193C6F7A000336FF /* AFPropertyListRequestOperation.m */,
+				52124815193C6F7A000336FF /* AFURLConnectionOperation.h */,
+				52124816193C6F7A000336FF /* AFURLConnectionOperation.m */,
+				52124817193C6F7A000336FF /* AFXMLRequestOperation.h */,
+				52124818193C6F7A000336FF /* AFXMLRequestOperation.m */,
+				52124819193C6F7A000336FF /* UIImageView+AFNetworking.h */,
+				5212481A193C6F7A000336FF /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		52150C4019232138002D65BE /* Add Bus Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				5291B1B619249BF400152DA5 /* CheckBusSchedule */,
+				52150C4B19232CF1002D65BE /* Popover Views */,
+				52150C4319232205002D65BE /* BusSchedule.storyboard */,
+				52150C45192322BA002D65BE /* AddBusScheduleVC.h */,
+				52150C46192322BA002D65BE /* AddBusScheduleVC.m */,
+				52150C4F192355B9002D65BE /* SeatReservationVC.h */,
+				52150C50192355B9002D65BE /* SeatReservationVC.m */,
+			);
+			path = "Add Bus Schedule";
+			sourceTree = "<group>";
+		};
+		52150C4B19232CF1002D65BE /* Popover Views */ = {
+			isa = PBXGroup;
+			children = (
+				52150C4C19232D14002D65BE /* SelectBusTypeVC.h */,
+				52150C4D19232D14002D65BE /* SelectBusTypeVC.m */,
+			);
+			path = "Popover Views";
+			sourceTree = "<group>";
+		};
+		52164EA01920A8A5002821EA /* MultilineSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				52164EA41920A8C4002821EA /* UIView+LayerShot.h */,
+				52164EA51920A8C4002821EA /* UIView+LayerShot.m */,
+				52164EA11920A8A5002821EA /* MultiLineSegmentedControl.h */,
+				52164EA21920A8A5002821EA /* MultiLineSegmentedControl.m */,
+			);
+			path = MultilineSegmentControl;
+			sourceTree = "<group>";
+		};
+		521AE778195BDEA4000A470B /* Holiday */ = {
+			isa = PBXGroup;
+			children = (
+				521AE779195BDEBD000A470B /* ShowHolidayVC.h */,
+				521AE77A195BDEBD000A470B /* ShowHolidayVC.m */,
+				521AE77C195BE79A000A470B /* HolidayDateVC.h */,
+				521AE77D195BE79A000A470B /* HolidayDateVC.m */,
+			);
+			path = Holiday;
+			sourceTree = "<group>";
+		};
+		521CCEEC19EE4A1700E16213 /* HotSaleAgentVC */ = {
+			isa = PBXGroup;
+			children = (
+				521CCEED19EE4A2E00E16213 /* HotSaleAgent.storyboard */,
+				521CCEEF19EE4C7F00E16213 /* HotSaleAgentReportVC.h */,
+				521CCEF019EE4C7F00E16213 /* HotSaleAgentReportVC.m */,
+				521CCEF219EE654300E16213 /* HotSaleAgentTripReportVC.h */,
+				521CCEF319EE654300E16213 /* HotSaleAgentTripReportVC.m */,
+			);
+			path = HotSaleAgentVC;
+			sourceTree = "<group>";
+		};
+		521CCEF519EE774000E16213 /* HotSaleTypeVC */ = {
+			isa = PBXGroup;
+			children = (
+				521CCEF619EE775900E16213 /* HotSaleType.storyboard */,
+				521CCEFE19EE788900E16213 /* HotSaleTypeReportVC.h */,
+				521CCEFF19EE788900E16213 /* HotSaleTypeReportVC.m */,
+			);
+			path = HotSaleTypeVC;
+			sourceTree = "<group>";
+		};
+		521CCEF819EE781900E16213 /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				521CCEF919EE781900E16213 /* XYPieChart.h */,
+				521CCEFA19EE781900E16213 /* XYPieChart.m */,
+			);
+			path = XYPieChart;
+			sourceTree = "<group>";
+		};
+		521FF2D4193F320500F22466 /* Add New */ = {
+			isa = PBXGroup;
+			children = (
+				52209F2A194020D000EF6F21 /* Popover Views */,
+				521FF2D5193F325C00F22466 /* AddNew.storyboard */,
+				521FF2D7193F328C00F22466 /* AddNewVC.h */,
+				521FF2D8193F328C00F22466 /* AddNewVC.m */,
+				524B5EDD19514DF400116E8E /* ShowEditAllVC.h */,
+				524B5EDE19514DF400116E8E /* ShowEditAllVC.m */,
+				5227860D19613FFB00D28B75 /* OperatorShowEditAllVC.h */,
+				5227860E19613FFB00D28B75 /* OperatorShowEditAllVC.m */,
+			);
+			path = "Add New";
+			sourceTree = "<group>";
+		};
+		52209F2A194020D000EF6F21 /* Popover Views */ = {
+			isa = PBXGroup;
+			children = (
+				52209F2B194020E300EF6F21 /* CreateAgentGroupVC.h */,
+				52209F2C194020E300EF6F21 /* CreateAgentGroupVC.m */,
+				523BC77C19495CC50089029D /* CreateNewCityVC.h */,
+				523BC77D19495CC50089029D /* CreateNewCityVC.m */,
+				523BC77F194965B40089029D /* CreateNewBusTypeVC.h */,
+				523BC780194965B40089029D /* CreateNewBusTypeVC.m */,
+				523BC78219496C5A0089029D /* CreateNewOperatorVC.h */,
+				523BC78319496C5A0089029D /* CreateNewOperatorVC.m */,
+				52351189194AB4A100B7BA09 /* CreateNewTicketTypeVC.h */,
+				5235118A194AB4A100B7BA09 /* CreateNewTicketTypeVC.m */,
+			);
+			path = "Popover Views";
+			sourceTree = "<group>";
+		};
+		52209F2E1940250600EF6F21 /* JDStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				52209F2F1940250600EF6F21 /* JDStatusBarNotification.h */,
+				52209F301940250600EF6F21 /* JDStatusBarNotification.m */,
+				52209F311940250600EF6F21 /* JDStatusBarStyle.h */,
+				52209F321940250600EF6F21 /* JDStatusBarStyle.m */,
+				52209F331940250600EF6F21 /* JDStatusBarView.h */,
+				52209F341940250600EF6F21 /* JDStatusBarView.m */,
+			);
+			path = JDStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		522137A2194807FF00946EA8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				522137A31948081C00946EA8 /* SeatlayoutCell.h */,
+				522137A41948081C00946EA8 /* SeatlayoutCell.m */,
+				523537FD194F040700EF5280 /* customCollcell.h */,
+				523537FE194F040700EF5280 /* customCollcell.m */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		522137A61948421D00946EA8 /* Popover view */ = {
+			isa = PBXGroup;
+			children = (
+				522137A71948423900946EA8 /* AddSeatNameVC.h */,
+				522137A81948423900946EA8 /* AddSeatNameVC.m */,
+			);
+			path = "Popover view";
+			sourceTree = "<group>";
+		};
+		522437B4191C91EA0005E426 /* PopoverViews */ = {
+			isa = PBXGroup;
+			children = (
+				522437B5191C92170005E426 /* TripListVC.h */,
+				522437B6191C92170005E426 /* TripListVC.m */,
+				522437B8191C975F0005E426 /* TripTimeListVC.h */,
+				522437B9191C975F0005E426 /* TripTimeListVC.m */,
+				522437BB191C9B7D0005E426 /* FromDateVC.h */,
+				522437BC191C9B7D0005E426 /* FromDateVC.m */,
+				522437CB191C9F160005E426 /* ToDateVC.h */,
+				522437CC191C9F160005E426 /* ToDateVC.m */,
+			);
+			path = PopoverViews;
+			sourceTree = "<group>";
+		};
+		522437BE191C9D8C0005E426 /* CKCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				522437BF191C9D8C0005E426 /* CKCalendarView.h */,
+				522437C0191C9D8C0005E426 /* CKCalendarView.m */,
+				522437C1191C9D8C0005E426 /* resources */,
+			);
+			path = CKCalendar;
+			sourceTree = "<group>";
+		};
+		522437C1191C9D8C0005E426 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				522437C2191C9D8C0005E426 /* left_arrow.png */,
+				522437C3191C9D8C0005E426 /* left_arrow@2x.png */,
+				522437C4191C9D8C0005E426 /* right_arrow.png */,
+				522437C5191C9D8C0005E426 /* right_arrow@2x.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		5224EA8119344FBE005AF853 /* Popover View */ = {
+			isa = PBXGroup;
+			children = (
+				5224EA8219344FD3005AF853 /* ChooseCityVC.h */,
+				5224EA8319344FD3005AF853 /* ChooseCityVC.m */,
+				5224EA8519345841005AF853 /* ChooseBusClass.h */,
+				5224EA8619345841005AF853 /* ChooseBusClass.m */,
+				523537FA194EA1EC00EF5280 /* ChooseSeatPlanVC.h */,
+				523537FB194EA1EC00EF5280 /* ChooseSeatPlanVC.m */,
+			);
+			path = "Popover View";
+			sourceTree = "<group>";
+		};
+		5224EA8D19349C17005AF853 /* ManageBusTypePrice */ = {
+			isa = PBXGroup;
+			children = (
+				5224EA8E19349C38005AF853 /* ManageBusTypePrice.storyboard */,
+				5224EA9019349C5E005AF853 /* ManageBusTypePriceVC.h */,
+				5224EA9119349C5E005AF853 /* ManageBusTypePriceVC.m */,
+			);
+			path = ManageBusTypePrice;
+			sourceTree = "<group>";
+		};
+		5227F52E195009660022C16E /* Daily Report */ = {
+			isa = PBXGroup;
+			children = (
+				524B5EE01951802200116E8E /* AllDailyReport */,
+				5227F53A195051E50022C16E /* AdvancedReport */,
+				5227F52F195009890022C16E /* DailyReport.storyboard */,
+				5227F53119500A800022C16E /* DepartureReportWithTimeVC.h */,
+				5227F53219500A800022C16E /* DepartureReportWithTimeVC.m */,
+				5227F534195040070022C16E /* DepartureReportWithBusNoVC.h */,
+				5227F535195040070022C16E /* DepartureReportWithBusNoVC.m */,
+				5227F537195048930022C16E /* DepartureReportWithSeatNoVC.h */,
+				5227F538195048930022C16E /* DepartureReportWithSeatNoVC.m */,
+			);
+			path = "Daily Report";
+			sourceTree = "<group>";
+		};
+		5227F53A195051E50022C16E /* AdvancedReport */ = {
+			isa = PBXGroup;
+			children = (
+				5227F53B195052580022C16E /* AdvancedReportVC.h */,
+				5227F53C195052580022C16E /* AdvancedReportVC.m */,
+			);
+			path = AdvancedReport;
+			sourceTree = "<group>";
+		};
+		522DEFB319EFB22500300EAE /* ReportAgentCredit */ = {
+			isa = PBXGroup;
+			children = (
+				522DEFB419EFB22500300EAE /* ReportAgentListVC */,
+			);
+			path = ReportAgentCredit;
+			sourceTree = "<group>";
+		};
+		522DEFB419EFB22500300EAE /* ReportAgentListVC */ = {
+			isa = PBXGroup;
+			children = (
+				522DEFB519EFB24C00300EAE /* ReportAgentCredit.storyboard */,
+				522DEFB719EFBB8600300EAE /* CreditAgentListVC.h */,
+				522DEFB819EFBB8600300EAE /* CreditAgentListVC.m */,
+				522713BF19F0C63C00882879 /* CreditAgentDetailVC.h */,
+				522713C019F0C63C00882879 /* CreditAgentDetailVC.m */,
+				522713C219F0D53200882879 /* InputCreditVC.h */,
+				522713C319F0D53200882879 /* InputCreditVC.m */,
+				52077FD919F0FC0100A8B86A /* InputCommissionVC.h */,
+				52077FDA19F0FC0100A8B86A /* InputCommissionVC.m */,
+				523E366C19F4CAAA00DA4E6B /* InputPrepaidVC.h */,
+				523E366D19F4CAAA00DA4E6B /* InputPrepaidVC.m */,
+				52FE6B4819F4D49100C7A7C3 /* TripCommissionVC.h */,
+				52FE6B4919F4D49100C7A7C3 /* TripCommissionVC.m */,
+				5208639A19F60DF1000D4C4A /* PaymentListVC.h */,
+				5208639B19F60DF1000D4C4A /* PaymentListVC.m */,
+				5208639D19F65B1D000D4C4A /* CreditListVC.h */,
+				5208639E19F65B1D000D4C4A /* CreditListVC.m */,
+				528FC2B019FA5033004BCA5E /* EditCreditListVC.h */,
+				528FC2B119FA5033004BCA5E /* EditCreditListVC.m */,
+				528FC2B319FA5E0C004BCA5E /* ChangeBusGateVC.h */,
+				528FC2B419FA5E0C004BCA5E /* ChangeBusGateVC.m */,
+				5212A55419FE377300E48C08 /* AgentListPopOver.h */,
+				5212A55519FE377300E48C08 /* AgentListPopOver.m */,
+				521CA86319FF47DC00C63477 /* MakePaymentVC.h */,
+				521CA86419FF47DC00C63477 /* MakePaymentVC.m */,
+			);
+			path = ReportAgentListVC;
+			sourceTree = "<group>";
+		};
+		52351185194AA86100B7BA09 /* All Operator List */ = {
+			isa = PBXGroup;
+			children = (
+				52351186194AA88900B7BA09 /* SelectOperatorVC.h */,
+				52351187194AA88900B7BA09 /* SelectOperatorVC.m */,
+			);
+			path = "All Operator List";
+			sourceTree = "<group>";
+		};
+		52359FD01977829A007EAB9B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				52359FD11977829A007EAB9B /* Reachability.h */,
+				52359FD21977829A007EAB9B /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5237559D191B6E7E00228B29 = {
+			isa = PBXGroup;
+			children = (
+				523755AF191B6E7E00228B29 /* BusOperator */,
+				523755CE191B6E7E00228B29 /* BusOperatorTests */,
+				523755A8191B6E7E00228B29 /* Frameworks */,
+				523755A7191B6E7E00228B29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523755A7191B6E7E00228B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523755A6191B6E7E00228B29 /* BusOperator.app */,
+				523755C7191B6E7E00228B29 /* BusOperatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523755A8191B6E7E00228B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521CCEFC19EE783500E16213 /* QuartzCore.framework */,
+				52FA0D20195AB5AD00E6F0BD /* MessageUI.framework */,
+				523755A9191B6E7E00228B29 /* Foundation.framework */,
+				523755AB191B6E7E00228B29 /* CoreGraphics.framework */,
+				523755AD191B6E7E00228B29 /* UIKit.framework */,
+				523755C8191B6E7E00228B29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		523755AF191B6E7E00228B29 /* BusOperator */ = {
+			isa = PBXGroup;
+			children = (
+				52124803193C6C3A000336FF /* Models */,
+				523755ED191B783C00228B29 /* Helpers */,
+				523755EA191B770400228B29 /* Images */,
+				523755E2191B723300228B29 /* ViewControllers */,
+				523755B8191B6E7E00228B29 /* AppDelegate.h */,
+				523755B9191B6E7E00228B29 /* AppDelegate.m */,
+				523755BB191B6E7E00228B29 /* Main.storyboard */,
+				523755BE191B6E7E00228B29 /* ViewController.h */,
+				523755BF191B6E7E00228B29 /* ViewController.m */,
+				523755C1191B6E7E00228B29 /* Images.xcassets */,
+				523755B0191B6E7E00228B29 /* Supporting Files */,
+			);
+			path = BusOperator;
+			sourceTree = "<group>";
+		};
+		523755B0191B6E7E00228B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522F7685195D67E700E3FFF2 /* Constants.h */,
+				52189CCF1924698900671171 /* Zawgyi.ttf */,
+				523755B1191B6E7E00228B29 /* BusOperator-Info.plist */,
+				523755B2191B6E7E00228B29 /* InfoPlist.strings */,
+				523755B5191B6E7E00228B29 /* main.m */,
+				523755B7191B6E7E00228B29 /* BusOperator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		523755CE191B6E7E00228B29 /* BusOperatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				523755D4191B6E7E00228B29 /* BusOperatorTests.m */,
+				523755CF191B6E7E00228B29 /* Supporting Files */,
+			);
+			path = BusOperatorTests;
+			sourceTree = "<group>";
+		};
+		523755CF191B6E7E00228B29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523755D0191B6E7E00228B29 /* BusOperatorTests-Info.plist */,
+				523755D1191B6E7E00228B29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		523755E2191B723300228B29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				522DEFB319EFB22500300EAE /* ReportAgentCredit */,
+				52C66C4F19ECDC6B001C4474 /* ReportHotSale */,
+				52FA0D14195A7A1700E6F0BD /* Departure Report */,
+				5227F52E195009660022C16E /* Daily Report */,
+				52351185194AA86100B7BA09 /* All Operator List */,
+				523BC785194982300089029D /* TicketType */,
+				521FF2D4193F320500F22466 /* Add New */,
+				524E31A2193DC1A000DDFBF0 /* SeatPlan */,
+				5224EA8D19349C17005AF853 /* ManageBusTypePrice */,
+				52F31386193320EE0044CADE /* Agent List */,
+				52F31387193320EE0044CADE /* Customer List */,
+				52F31388193320EE0044CADE /* ManageCar&Price */,
+				52F31389193320EE0044CADE /* Trip List */,
+				527F924B1924702A006EE584 /* LoginRegister */,
+				52150C4019232138002D65BE /* Add Bus Schedule */,
+				523755E3191B723300228B29 /* Home */,
+				523755E4191B723300228B29 /* Report By Agents */,
+				523755E5191B723300228B29 /* Report By Journey */,
+				523755E6191B723300228B29 /* Report By Seat Occupacy */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		523755E3191B723300228B29 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5291B1B21924899900152DA5 /* Popover views */,
+				523755E7191B725600228B29 /* HomeSelectVC.h */,
+				523755E8191B725600228B29 /* HomeSelectVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		523755E4191B723300228B29 /* Report By Agents */ = {
+			isa = PBXGroup;
+			children = (
+				523755F1191B78B400228B29 /* AgentsStoryboard.storyboard */,
+				523755F3191B7AFF00228B29 /* AgentSelectVC.h */,
+				523755F4191B7AFF00228B29 /* AgentSelectVC.m */,
+			);
+			path = "Report By Agents";
+			sourceTree = "<group>";
+		};
+		523755E5191B723300228B29 /* Report By Journey */ = {
+			isa = PBXGroup;
+			children = (
+				522437B4191C91EA0005E426 /* PopoverViews */,
+				523755FA191B887300228B29 /* Trips.storyboard */,
+				523755FC191B889A00228B29 /* TripReportVC.h */,
+				523755FD191B889A00228B29 /* TripReportVC.m */,
+				52164E9419207479002821EA /* TripReportByAllTimeVC.h */,
+				52164E9519207479002821EA /* TripReportByAllTimeVC.m */,
+				522437CE191CBB8B0005E426 /* TripReportByBusNoVC.h */,
+				522437CF191CBB8B0005E426 /* TripReportByBusNoVC.m */,
+				522437D1191CD4EF0005E426 /* TripReportBySeatNoVC.h */,
+				522437D2191CD4EF0005E426 /* TripReportBySeatNoVC.m */,
+			);
+			path = "Report By Journey";
+			sourceTree = "<group>";
+		};
+		523755E6191B723300228B29 /* Report By Seat Occupacy */ = {
+			isa = PBXGroup;
+			children = (
+				52164E9719208450002821EA /* SeatOccupacy.storyboard */,
+				52164E991920848A002821EA /* SeatOccupacyReportVC.h */,
+				52164E9A1920848A002821EA /* SeatOccupacyReportVC.m */,
+				52164EA71920B10F002821EA /* DetailSeatOccupacyVC.h */,
+				52164EA81920B10F002821EA /* DetailSeatOccupacyVC.m */,
+			);
+			path = "Report By Seat Occupacy";
+			sourceTree = "<group>";
+		};
+		523755EA191B770400228B29 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				520C1390193C40A50009BB7A /* add_icon.png */,
+				5224EA88193471A4005AF853 /* HomeArrow.png */,
+				523755EB191B770400228B29 /* BkgColor.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		523755ED191B783C00228B29 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				525FE4EC1A07379B00904B2D /* UIColor+Utilities.h */,
+				525FE4ED1A07379B00904B2D /* UIColor+Utilities.m */,
+				527D7B8D1A021A880073698A /* Transition Delegate */,
+				521CCEF819EE781900E16213 /* XYPieChart */,
+				52359FD01977829A007EAB9B /* Reachability */,
+				52209F2E1940250600EF6F21 /* JDStatusBarNotification */,
+				52124807193C6F7A000336FF /* AFNetworking */,
+				521247DF193C6BF8000336FF /* JSONModel */,
+				521247DB193C68EB000336FF /* DataFecterClass */,
+				52F313B6193353570044CADE /* SSCheckBoxView */,
+				52F313AA193349E50044CADE /* RadioButton */,
+				52164EA01920A8A5002821EA /* MultilineSegmentControl */,
+				522437BE191C9D8C0005E426 /* CKCalendar */,
+				523755F6191B822500228B29 /* CustomCells */,
+				523755EE191B786A00228B29 /* UIStoryboard+MultipleStoryboards.h */,
+				523755EF191B786A00228B29 /* UIStoryboard+MultipleStoryboards.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		523755F6191B822500228B29 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				523755F7191B827200228B29 /* AgentCell.h */,
+				523755F8191B827200228B29 /* AgentCell.m */,
+				522437B1191C8ADD0005E426 /* TripReportCell.h */,
+				522437B2191C8ADD0005E426 /* TripReportCell.m */,
+				52164EAA1920B3D8002821EA /* SeatOccupacyCell.h */,
+				52164EAB1920B3D8002821EA /* SeatOccupacyCell.m */,
+				52150C481923258D002D65BE /* BusCell.h */,
+				52150C491923258D002D65BE /* BusCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		523BC785194982300089029D /* TicketType */ = {
+			isa = PBXGroup;
+			children = (
+				523BC789194984C30089029D /* Custom Cell */,
+				523BC7861949827D0089029D /* SelectTicketTypeVC.h */,
+				523BC7871949827D0089029D /* SelectTicketTypeVC.m */,
+			);
+			path = TicketType;
+			sourceTree = "<group>";
+		};
+		523BC789194984C30089029D /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				523BC78A194984E80089029D /* TicketTypeCell.h */,
+				523BC78B194984E80089029D /* TicketTypeCell.m */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		523FD97F1936E60C00B288A8 /* HolidaySchedule */ = {
+			isa = PBXGroup;
+			children = (
+				523FD9801936E62100B288A8 /* AddTripHolidayVC.h */,
+				523FD9811936E62100B288A8 /* AddTripHolidayVC.m */,
+				523FD35B1938816400A59E19 /* ShowTripHolidayVC.h */,
+				523FD35C1938816400A59E19 /* ShowTripHolidayVC.m */,
+			);
+			path = HolidaySchedule;
+			sourceTree = "<group>";
+		};
+		524B5EE01951802200116E8E /* AllDailyReport */ = {
+			isa = PBXGroup;
+			children = (
+				524B5EE11951804900116E8E /* DailySaleReportVC.h */,
+				524B5EE21951804900116E8E /* DailySaleReportVC.m */,
+			);
+			path = AllDailyReport;
+			sourceTree = "<group>";
+		};
+		524E31A2193DC1A000DDFBF0 /* SeatPlan */ = {
+			isa = PBXGroup;
+			children = (
+				522137A61948421D00946EA8 /* Popover view */,
+				522137A2194807FF00946EA8 /* CustomCell */,
+				524E31A3193DC1B100DDFBF0 /* Seatplan.storyboard */,
+				524E31A5193DC1DE00DDFBF0 /* CreateSeatplanVC.h */,
+				524E31A6193DC1DE00DDFBF0 /* CreateSeatplanVC.m */,
+				5261BA611947136500FDA38C /* SelectScreenVC.h */,
+				5261BA621947136500FDA38C /* SelectScreenVC.m */,
+				5261BA64194715AD00FDA38C /* CreateSeatVC.h */,
+				5261BA65194715AD00FDA38C /* CreateSeatVC.m */,
+			);
+			path = SeatPlan;
+			sourceTree = "<group>";
+		};
+		527D7B8D1A021A880073698A /* Transition Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				527D7B8E1A021A880073698A /* AnimatedTransitioning.h */,
+				527D7B8F1A021A880073698A /* AnimatedTransitioning.m */,
+				527D7B901A021A880073698A /* TransitionDelegate.h */,
+				527D7B911A021A880073698A /* TransitionDelegate.m */,
+			);
+			path = "Transition Delegate";
+			sourceTree = "<group>";
+		};
+		527F924B1924702A006EE584 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				527F924C1924703E006EE584 /* LoginVC.h */,
+				527F924D1924703E006EE584 /* LoginVC.m */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		5291B1B21924899900152DA5 /* Popover views */ = {
+			isa = PBXGroup;
+			children = (
+				5291B1B3192489D000152DA5 /* BusSchedulePopoverVC.h */,
+				5291B1B4192489D000152DA5 /* BusSchedulePopoverVC.m */,
+			);
+			path = "Popover views";
+			sourceTree = "<group>";
+		};
+		5291B1B619249BF400152DA5 /* CheckBusSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				5291B1B719249C0800152DA5 /* CheckBusSchedule.storyboard */,
+				5291B1B919249FB400152DA5 /* CheckBusScheduleVC.h */,
+				5291B1BA19249FB400152DA5 /* CheckBusScheduleVC.m */,
+			);
+			path = CheckBusSchedule;
+			sourceTree = "<group>";
+		};
+		529981A419ECE31500886EAE /* HotSaleTripVC */ = {
+			isa = PBXGroup;
+			children = (
+				529981A519ECE32800886EAE /* HotSaleTrip.storyboard */,
+				529981A719ECE4A100886EAE /* HotSaleTripReportVC.h */,
+				529981A819ECE4A100886EAE /* HotSaleTripReportVC.m */,
+				529981AA19ED341B00886EAE /* HotSaleTripByTimeVC.h */,
+				529981AB19ED341B00886EAE /* HotSaleTripByTimeVC.m */,
+			);
+			path = HotSaleTripVC;
+			sourceTree = "<group>";
+		};
+		52C66C4F19ECDC6B001C4474 /* ReportHotSale */ = {
+			isa = PBXGroup;
+			children = (
+				521CCEF519EE774000E16213 /* HotSaleTypeVC */,
+				521CCEEC19EE4A1700E16213 /* HotSaleAgentVC */,
+				529981A419ECE31500886EAE /* HotSaleTripVC */,
+			);
+			path = ReportHotSale;
+			sourceTree = "<group>";
+		};
+		52F31386193320EE0044CADE /* Agent List */ = {
+			isa = PBXGroup;
+			children = (
+				52F3139D19332A130044CADE /* AgentTab.storyboard */,
+				52F3139F19332A230044CADE /* AgentTabVC.h */,
+				52F313A019332A230044CADE /* AgentTabVC.m */,
+				521FF2CE193F1E2200F22466 /* SelectAgentGroupVC.h */,
+				521FF2CF193F1E2200F22466 /* SelectAgentGroupVC.m */,
+			);
+			path = "Agent List";
+			sourceTree = "<group>";
+		};
+		52F31387193320EE0044CADE /* Customer List */ = {
+			isa = PBXGroup;
+			children = (
+				52F313A219332D020044CADE /* CustomerListTab.storyboard */,
+				52F313A419332D240044CADE /* CustomerListVC.h */,
+				52F313A519332D240044CADE /* CustomerListVC.m */,
+			);
+			path = "Customer List";
+			sourceTree = "<group>";
+		};
+		52F31388193320EE0044CADE /* ManageCar&Price */ = {
+			isa = PBXGroup;
+			children = (
+				523FD97F1936E60C00B288A8 /* HolidaySchedule */,
+				52F3138A193321140044CADE /* ManageCar&Price.storyboard */,
+				52F31392193321FB0044CADE /* ManageCarPriceVC.h */,
+				52F31393193321FB0044CADE /* ManageCarPriceVC.m */,
+				5233904619358C9D00B00D70 /* ShowBusScheduleVC.h */,
+				5233904719358C9D00B00D70 /* ShowBusScheduleVC.m */,
+				5233904C1935CF1E00B00D70 /* AddNewBusScheduleVC.h */,
+				5233904D1935CF1E00B00D70 /* AddNewBusScheduleVC.m */,
+			);
+			path = "ManageCar&Price";
+			sourceTree = "<group>";
+		};
+		52F31389193320EE0044CADE /* Trip List */ = {
+			isa = PBXGroup;
+			children = (
+				521AE778195BDEA4000A470B /* Holiday */,
+				5224EA8119344FBE005AF853 /* Popover View */,
+				52F313951933271B0044CADE /* TripList.storyboard */,
+				52F3139A193328F00044CADE /* TripListTabVC.h */,
+				52F3139B193328F00044CADE /* TripListTabVC.m */,
+				52F313A719333D270044CADE /* AddTripVC.h */,
+				52F313A819333D270044CADE /* AddTripVC.m */,
+				5224EA8A19347550005AF853 /* EditTripListVC.h */,
+				5224EA8B19347550005AF853 /* EditTripListVC.m */,
+			);
+			path = "Trip List";
+			sourceTree = "<group>";
+		};
+		52F313AA193349E50044CADE /* RadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				52F313AE19334A190044CADE /* checked.png */,
+				52F313AF19334A190044CADE /* checked@2x.png */,
+				52F313B019334A190044CADE /* unchecked.png */,
+				52F313B119334A190044CADE /* unchecked@2x.png */,
+				52F313AB193349E50044CADE /* RadioButton.h */,
+				52F313AC193349E50044CADE /* RadioButton.m */,
+			);
+			path = RadioButton;
+			sourceTree = "<group>";
+		};
+		52F313B6193353570044CADE /* SSCheckBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				52F313B7193353570044CADE /* Graphics */,
+				52F313CC193353570044CADE /* Helpers */,
+				52F313CF193353570044CADE /* SSCheckBoxView.h */,
+				52F313D0193353570044CADE /* SSCheckBoxView.m */,
+			);
+			path = SSCheckBoxView;
+			sourceTree = "<group>";
+		};
+		52F313B7193353570044CADE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				52F313B8193353570044CADE /* cb_box_off.png */,
+				52F313B9193353570044CADE /* cb_box_off@2x.png */,
+				52F313BA193353570044CADE /* cb_box_on.png */,
+				52F313BB193353570044CADE /* cb_box_on@2x.png */,
+				52F313BC193353570044CADE /* cb_dark_off.png */,
+				52F313BD193353570044CADE /* cb_dark_off@2x.png */,
+				52F313BE193353570044CADE /* cb_dark_on.png */,
+				52F313BF193353570044CADE /* cb_dark_on@2x.png */,
+				52F313C0193353570044CADE /* cb_glossy_off.png */,
+				52F313C1193353570044CADE /* cb_glossy_off@2x.png */,
+				52F313C2193353570044CADE /* cb_glossy_on.png */,
+				52F313C3193353570044CADE /* cb_glossy_on@2x.png */,
+				52F313C4193353570044CADE /* cb_green_off.png */,
+				52F313C5193353570044CADE /* cb_green_off@2x.png */,
+				52F313C6193353570044CADE /* cb_green_on.png */,
+				52F313C7193353570044CADE /* cb_green_on@2x.png */,
+				52F313C8193353570044CADE /* cb_mono_off.png */,
+				52F313C9193353570044CADE /* cb_mono_off@2x.png */,
+				52F313CA193353570044CADE /* cb_mono_on.png */,
+				52F313CB193353570044CADE /* cb_mono_on@2x.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		52F313CC193353570044CADE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				52F313CD193353570044CADE /* UIHelpers.h */,
+				52F313CE193353570044CADE /* UIHelpers.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		52FA0D14195A7A1700E6F0BD /* Departure Report */ = {
+			isa = PBXGroup;
+			children = (
+				52FA0D15195A7A4700E6F0BD /* DepartureReport.storyboard */,
+				52FA0D17195A7B9700E6F0BD /* DepartureBusReportVC.h */,
+				52FA0D18195A7B9700E6F0BD /* DepartureBusReportVC.m */,
+				52FA0D1A195A960200E6F0BD /* DepartureAgentReportVC.h */,
+				52FA0D1B195A960200E6F0BD /* DepartureAgentReportVC.m */,
+				52FA0D1D195AAB0700E6F0BD /* DepartureSeatReportVC.h */,
+				52FA0D1E195AAB0700E6F0BD /* DepartureSeatReportVC.m */,
+			);
+			path = "Departure Report";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		523755A5191B6E7E00228B29 /* BusOperator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523755D8191B6E7E00228B29 /* Build configuration list for PBXNativeTarget "BusOperator" */;
+			buildPhases = (
+				523755A2191B6E7E00228B29 /* Sources */,
+				523755A3191B6E7E00228B29 /* Frameworks */,
+				523755A4191B6E7E00228B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusOperator;
+			productName = BusOperator;
+			productReference = 523755A6191B6E7E00228B29 /* BusOperator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		523755C6191B6E7E00228B29 /* BusOperatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523755DB191B6E7E00228B29 /* Build configuration list for PBXNativeTarget "BusOperatorTests" */;
+			buildPhases = (
+				523755C3191B6E7E00228B29 /* Sources */,
+				523755C4191B6E7E00228B29 /* Frameworks */,
+				523755C5191B6E7E00228B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				523755CD191B6E7E00228B29 /* PBXTargetDependency */,
+			);
+			name = BusOperatorTests;
+			productName = BusOperatorTests;
+			productReference = 523755C7191B6E7E00228B29 /* BusOperatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5237559E191B6E7E00228B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ignite Software Solution";
+				TargetAttributes = {
+					523755C6191B6E7E00228B29 = {
+						TestTargetID = 523755A5191B6E7E00228B29;
+					};
+				};
+			};
+			buildConfigurationList = 523755A1191B6E7E00228B29 /* Build configuration list for PBXProject "BusOperator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5237559D191B6E7E00228B29;
+			productRefGroup = 523755A7191B6E7E00228B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				523755A5191B6E7E00228B29 /* BusOperator */,
+				523755C6191B6E7E00228B29 /* BusOperatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		523755A4191B6E7E00228B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F313DD193353570044CADE /* cb_green_off.png in Resources */,
+				521FF2D6193F325C00F22466 /* AddNew.storyboard in Resources */,
+				52150C4419232205002D65BE /* BusSchedule.storyboard in Resources */,
+				52F313B519334A190044CADE /* unchecked@2x.png in Resources */,
+				52F313DE193353570044CADE /* cb_green_off@2x.png in Resources */,
+				52F313D4193353570044CADE /* cb_box_on@2x.png in Resources */,
+				52164E9819208450002821EA /* SeatOccupacy.storyboard in Resources */,
+				523755C2191B6E7E00228B29 /* Images.xcassets in Resources */,
+				522437CA191C9D8C0005E426 /* right_arrow@2x.png in Resources */,
+				524E31A4193DC1B100DDFBF0 /* Seatplan.storyboard in Resources */,
+				52F313D8193353570044CADE /* cb_dark_on@2x.png in Resources */,
+				521CCEF719EE775900E16213 /* HotSaleType.storyboard in Resources */,
+				52F313D2193353570044CADE /* cb_box_off@2x.png in Resources */,
+				52F313D6193353570044CADE /* cb_dark_off@2x.png in Resources */,
+				52F313D7193353570044CADE /* cb_dark_on.png in Resources */,
+				523755B4191B6E7E00228B29 /* InfoPlist.strings in Resources */,
+				52F313E4193353570044CADE /* cb_mono_on@2x.png in Resources */,
+				529981A619ECE32800886EAE /* HotSaleTrip.storyboard in Resources */,
+				52F313B219334A190044CADE /* checked.png in Resources */,
+				52FA0D16195A7A4700E6F0BD /* DepartureReport.storyboard in Resources */,
+				52F313B319334A190044CADE /* checked@2x.png in Resources */,
+				52F313961933271B0044CADE /* TripList.storyboard in Resources */,
+				52F313D5193353570044CADE /* cb_dark_off.png in Resources */,
+				52F313D3193353570044CADE /* cb_box_on.png in Resources */,
+				521CCEEE19EE4A2E00E16213 /* HotSaleAgent.storyboard in Resources */,
+				522DEFB619EFB24C00300EAE /* ReportAgentCredit.storyboard in Resources */,
+				52F313DA193353570044CADE /* cb_glossy_off@2x.png in Resources */,
+				522437C9191C9D8C0005E426 /* right_arrow.png in Resources */,
+				522437C7191C9D8C0005E426 /* left_arrow.png in Resources */,
+				52F313DC193353570044CADE /* cb_glossy_on@2x.png in Resources */,
+				522437C8191C9D8C0005E426 /* left_arrow@2x.png in Resources */,
+				5224EA8F19349C38005AF853 /* ManageBusTypePrice.storyboard in Resources */,
+				523755EC191B770400228B29 /* BkgColor.png in Resources */,
+				5227F530195009890022C16E /* DailyReport.storyboard in Resources */,
+				52189CD01924698900671171 /* Zawgyi.ttf in Resources */,
+				52F313B419334A190044CADE /* unchecked.png in Resources */,
+				52F313DB193353570044CADE /* cb_glossy_on.png in Resources */,
+				52F313DF193353570044CADE /* cb_green_on.png in Resources */,
+				52F3138B193321140044CADE /* ManageCar&Price.storyboard in Resources */,
+				52F313A319332D020044CADE /* CustomerListTab.storyboard in Resources */,
+				520C1391193C40A50009BB7A /* add_icon.png in Resources */,
+				523755FB191B887300228B29 /* Trips.storyboard in Resources */,
+				5224EA89193471A4005AF853 /* HomeArrow.png in Resources */,
+				52F313E1193353570044CADE /* cb_mono_off.png in Resources */,
+				52F313D1193353570044CADE /* cb_box_off.png in Resources */,
+				523755F2191B78B400228B29 /* AgentsStoryboard.storyboard in Resources */,
+				52F3139E19332A130044CADE /* AgentTab.storyboard in Resources */,
+				52F313E0193353570044CADE /* cb_green_on@2x.png in Resources */,
+				523755BD191B6E7E00228B29 /* Main.storyboard in Resources */,
+				5291B1B819249C0800152DA5 /* CheckBusSchedule.storyboard in Resources */,
+				52F313E2193353570044CADE /* cb_mono_off@2x.png in Resources */,
+				52F313E3193353570044CADE /* cb_mono_on.png in Resources */,
+				52F313D9193353570044CADE /* cb_glossy_off.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523755C5191B6E7E00228B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523755D3191B6E7E00228B29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		523755A2191B6E7E00228B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE6B4A19F4D49100C7A7C3 /* TripCommissionVC.m in Sources */,
+				52150C51192355B9002D65BE /* SeatReservationVC.m in Sources */,
+				521AE77E195BE79A000A470B /* HolidayDateVC.m in Sources */,
+				52F313A619332D240044CADE /* CustomerListVC.m in Sources */,
+				5227F53D195052580022C16E /* AdvancedReportVC.m in Sources */,
+				52FA0D1C195A960200E6F0BD /* DepartureAgentReportVC.m in Sources */,
+				523755C0191B6E7E00228B29 /* ViewController.m in Sources */,
+				52F3139C193328F00044CADE /* TripListTabVC.m in Sources */,
+				5227860F19613FFB00D28B75 /* OperatorShowEditAllVC.m in Sources */,
+				52124801193C6BF8000336FF /* JSONKeyMapper.m in Sources */,
+				521BC10F193D9D6D00F9A122 /* BusClass.m in Sources */,
+				527F924E1924703E006EE584 /* LoginVC.m in Sources */,
+				524E31A1193DB53D00DDFBF0 /* Agent.m in Sources */,
+				5208639F19F65B1D000D4C4A /* CreditListVC.m in Sources */,
+				52164EA31920A8A5002821EA /* MultiLineSegmentedControl.m in Sources */,
+				522437CD191C9F160005E426 /* ToDateVC.m in Sources */,
+				52359FD31977829A007EAB9B /* Reachability.m in Sources */,
+				5227F536195040070022C16E /* DepartureReportWithBusNoVC.m in Sources */,
+				52124829193C7CC7000336FF /* Trip.m in Sources */,
+				521247DE193C6915000336FF /* DataFetcher.m in Sources */,
+				52F313A119332A230044CADE /* AgentTabVC.m in Sources */,
+				523F69661945B6F30025DB6E /* SeatPlan.m in Sources */,
+				5224EA8419344FD3005AF853 /* ChooseCityVC.m in Sources */,
+				52124802193C6BF8000336FF /* JSONValueTransformer.m in Sources */,
+				523FD9821936E62100B288A8 /* AddTripHolidayVC.m in Sources */,
+				523F69691945BD910025DB6E /* Seat.m in Sources */,
+				5212481B193C6F7A000336FF /* AFHTTPClient.m in Sources */,
+				5233904819358C9D00B00D70 /* ShowBusScheduleVC.m in Sources */,
+				522437D0191CBB8B0005E426 /* TripReportByBusNoVC.m in Sources */,
+				52124822193C6F7A000336FF /* AFXMLRequestOperation.m in Sources */,
+				5261BA66194715AD00FDA38C /* CreateSeatVC.m in Sources */,
+				521CA86519FF47DC00C63477 /* MakePaymentVC.m in Sources */,
+				52F313A919333D270044CADE /* AddTripVC.m in Sources */,
+				522437B3191C8ADD0005E426 /* TripReportCell.m in Sources */,
+				52209F351940250600EF6F21 /* JDStatusBarNotification.m in Sources */,
+				52077FDB19F0FC0100A8B86A /* InputCommissionVC.m in Sources */,
+				525FE4EE1A07379B00904B2D /* UIColor+Utilities.m in Sources */,
+				52164E9B1920848A002821EA /* SeatOccupacyReportVC.m in Sources */,
+				52150C4A1923258D002D65BE /* BusCell.m in Sources */,
+				523755BA191B6E7E00228B29 /* AppDelegate.m in Sources */,
+				523BC78C194984E80089029D /* TicketTypeCell.m in Sources */,
+				523755F5191B7AFF00228B29 /* AgentSelectVC.m in Sources */,
+				52F313E5193353570044CADE /* UIHelpers.m in Sources */,
+				521247FE193C6BF8000336FF /* JSONAPI.m in Sources */,
+				5224EA9219349C5E005AF853 /* ManageBusTypePriceVC.m in Sources */,
+				521247FA193C6BF8000336FF /* JSONModelArray.m in Sources */,
+				5233904E1935CF1E00B00D70 /* AddNewBusScheduleVC.m in Sources */,
+				52164EA61920A8C4002821EA /* UIView+LayerShot.m in Sources */,
+				521CCEFB19EE781900E16213 /* XYPieChart.m in Sources */,
+				5291B1BB19249FB400152DA5 /* CheckBusScheduleVC.m in Sources */,
+				5208639C19F60DF1000D4C4A /* PaymentListVC.m in Sources */,
+				52124820193C6F7A000336FF /* AFPropertyListRequestOperation.m in Sources */,
+				522713C119F0C63C00882879 /* CreditAgentDetailVC.m in Sources */,
+				522137A51948081C00946EA8 /* SeatlayoutCell.m in Sources */,
+				521CCF0019EE788900E16213 /* HotSaleTypeReportVC.m in Sources */,
+				52124823193C6F7A000336FF /* UIImageView+AFNetworking.m in Sources */,
+				522713C419F0D53200882879 /* InputCreditVC.m in Sources */,
+				5212481C193C6F7A000336FF /* AFHTTPRequestOperation.m in Sources */,
+				52164EAC1920B3D8002821EA /* SeatOccupacyCell.m in Sources */,
+				523755F9191B827200228B29 /* AgentCell.m in Sources */,
+				523BC78419496C5A0089029D /* CreateNewOperatorVC.m in Sources */,
+				52FA0D19195A7B9700E6F0BD /* DepartureBusReportVC.m in Sources */,
+				527D7B921A021A880073698A /* AnimatedTransitioning.m in Sources */,
+				5224EA8C19347550005AF853 /* EditTripListVC.m in Sources */,
+				524B5EE31951804900116E8E /* DailySaleReportVC.m in Sources */,
+				52FA0D1F195AAB0700E6F0BD /* DepartureSeatReportVC.m in Sources */,
+				521247FB193C6BF8000336FF /* JSONModelClassProperty.m in Sources */,
+				52209F2D194020E300EF6F21 /* CreateAgentGroupVC.m in Sources */,
+				527D7B931A021A880073698A /* TransitionDelegate.m in Sources */,
+				523BC7881949827D0089029D /* SelectTicketTypeVC.m in Sources */,
+				52150C4E19232D14002D65BE /* SelectBusTypeVC.m in Sources */,
+				52F313AD193349E50044CADE /* RadioButton.m in Sources */,
+				5212481D193C6F7A000336FF /* AFImageRequestOperation.m in Sources */,
+				52349AA91958062F00D2D172 /* Customer.m in Sources */,
+				52209F371940250600EF6F21 /* JDStatusBarView.m in Sources */,
+				5224EA8719345841005AF853 /* ChooseBusClass.m in Sources */,
+				522437B7191C92170005E426 /* TripListVC.m in Sources */,
+				521FF2D0193F1E2200F22466 /* SelectAgentGroupVC.m in Sources */,
+				5235118B194AB4A100B7BA09 /* CreateNewTicketTypeVC.m in Sources */,
+				521247F9193C6BF8000336FF /* JSONModel.m in Sources */,
+				528FC2B219FA5033004BCA5E /* EditCreditListVC.m in Sources */,
+				521FF2D3193F1ECC00F22466 /* AgentGroup.m in Sources */,
+				521247FD193C6BF8000336FF /* NSArray+JSONModel.m in Sources */,
+				522437C6191C9D8C0005E426 /* CKCalendarView.m in Sources */,
+				5212481F193C6F7A000336FF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				523FD35D1938816400A59E19 /* ShowTripHolidayVC.m in Sources */,
+				52F313E6193353570044CADE /* SSCheckBoxView.m in Sources */,
+				522437BD191C9B7D0005E426 /* FromDateVC.m in Sources */,
+				523537FF194F040700EF5280 /* customCollcell.m in Sources */,
+				5227F53319500A800022C16E /* DepartureReportWithTimeVC.m in Sources */,
+				528FC2B519FA5E0C004BCA5E /* ChangeBusGateVC.m in Sources */,
+				521247FC193C6BF8000336FF /* JSONModelError.m in Sources */,
+				5212A55619FE377300E48C08 /* AgentListPopOver.m in Sources */,
+				52209F361940250600EF6F21 /* JDStatusBarStyle.m in Sources */,
+				52351188194AA88900B7BA09 /* SelectOperatorVC.m in Sources */,
+				52124821193C6F7A000336FF /* AFURLConnectionOperation.m in Sources */,
+				52150C47192322BA002D65BE /* AddBusScheduleVC.m in Sources */,
+				52124806193C6C57000336FF /* City.m in Sources */,
+				52351184194AA70400B7BA09 /* Operator.m in Sources */,
+				522786121961644900D28B75 /* CommissionType.m in Sources */,
+				5261BA631947136500FDA38C /* SelectScreenVC.m in Sources */,
+				5212481E193C6F7A000336FF /* AFJSONRequestOperation.m in Sources */,
+				522437D3191CD4EF0005E426 /* TripReportBySeatNoVC.m in Sources */,
+				524B5EDF19514DF400116E8E /* ShowEditAllVC.m in Sources */,
+				523E366E19F4CAAA00DA4E6B /* InputPrepaidVC.m in Sources */,
+				524E31A7193DC1DE00DDFBF0 /* CreateSeatplanVC.m in Sources */,
+				5291B1B5192489D000152DA5 /* BusSchedulePopoverVC.m in Sources */,
+				529981A919ECE4A100886EAE /* HotSaleTripReportVC.m in Sources */,
+				521247FF193C6BF8000336FF /* JSONHTTPClient.m in Sources */,
+				5227F539195048930022C16E /* DepartureReportWithSeatNoVC.m in Sources */,
+				521CCEF119EE4C7F00E16213 /* HotSaleAgentReportVC.m in Sources */,
+				52F31394193321FB0044CADE /* ManageCarPriceVC.m in Sources */,
+				521CCEF419EE654300E16213 /* HotSaleAgentTripReportVC.m in Sources */,
+				523755F0191B786A00228B29 /* UIStoryboard+MultipleStoryboards.m in Sources */,
+				522137A91948423900946EA8 /* AddSeatNameVC.m in Sources */,
+				523755FE191B889A00228B29 /* TripReportVC.m in Sources */,
+				529981AC19ED341B00886EAE /* HotSaleTripByTimeVC.m in Sources */,
+				52164E9619207479002821EA /* TripReportByAllTimeVC.m in Sources */,
+				52124800193C6BF8000336FF /* JSONModel+networking.m in Sources */,
+				523BC781194965B40089029D /* CreateNewBusTypeVC.m in Sources */,
+				523537FC194EA1EC00EF5280 /* ChooseSeatPlanVC.m in Sources */,
+				522437BA191C975F0005E426 /* TripTimeListVC.m in Sources */,
+				521FF2D9193F328C00F22466 /* AddNewVC.m in Sources */,
+				52124826193C6FBF000336FF /* TicketingAPIClient.m in Sources */,
+				521AE77B195BDEBD000A470B /* ShowHolidayVC.m in Sources */,
+				523755B6191B6E7E00228B29 /* main.m in Sources */,
+				522DEFB919EFBB8600300EAE /* CreditAgentListVC.m in Sources */,
+				523755E9191B725600228B29 /* HomeSelectVC.m in Sources */,
+				521BC10C193D943300F9A122 /* TripDetail.m in Sources */,
+				523BC77E19495CC50089029D /* CreateNewCityVC.m in Sources */,
+				52164EA91920B10F002821EA /* DetailSeatOccupacyVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		523755C3191B6E7E00228B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523755D5191B6E7E00228B29 /* BusOperatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		523755CD191B6E7E00228B29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 523755A5191B6E7E00228B29 /* BusOperator */;
+			targetProxy = 523755CC191B6E7E00228B29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		523755B2191B6E7E00228B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523755B3191B6E7E00228B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		523755BB191B6E7E00228B29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523755BC191B6E7E00228B29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523755D1191B6E7E00228B29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523755D2191B6E7E00228B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523755D6191B6E7E00228B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		523755D7191B6E7E00228B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523755D9191B6E7E00228B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusOperator/BusOperator-Prefix.pch";
+				INFOPLIST_FILE = "BusOperator/BusOperator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		523755DA191B6E7E00228B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusOperator/BusOperator-Prefix.pch";
+				INFOPLIST_FILE = "BusOperator/BusOperator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		523755DC191B6E7E00228B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BusOperator.app/BusOperator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusOperator/BusOperator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BusOperatorTests/BusOperatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		523755DD191B6E7E00228B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BusOperator.app/BusOperator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusOperator/BusOperator-Prefix.pch";
+				INFOPLIST_FILE = "BusOperatorTests/BusOperatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		523755A1191B6E7E00228B29 /* Build configuration list for PBXProject "BusOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523755D6191B6E7E00228B29 /* Debug */,
+				523755D7191B6E7E00228B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523755D8191B6E7E00228B29 /* Build configuration list for PBXNativeTarget "BusOperator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523755D9191B6E7E00228B29 /* Debug */,
+				523755DA191B6E7E00228B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523755DB191B6E7E00228B29 /* Build configuration list for PBXNativeTarget "BusOperatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523755DC191B6E7E00228B29 /* Debug */,
+				523755DD191B6E7E00228B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5237559E191B6E7E00228B29 /* Project object */;
+}
